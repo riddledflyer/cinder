@@ -1,0 +1,70 @@
+name: Cinder 3.51 build and Japanese font checks
+
+on:
+  push:
+    paths:
+      - 'cinder-3.51-source.zip'
+      - '.github/workflows/cinder-3.51.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install host dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential wget ca-certificates unzip python3 python3-pip
+          python3 -m pip install --break-system-packages Pillow
+
+      - name: Install devkitPro 3DS toolchain
+        run: |
+          wget -q https://apt.devkitpro.org/install-devkitpro-pacman
+          sudo bash ./install-devkitpro-pacman
+          sudo dkp-pacman -Syu --noconfirm
+          sudo dkp-pacman -S --needed --noconfirm 3ds-dev 3dstools
+
+      - name: Extract Cinder 3.51 source
+        run: |
+          test -s cinder-3.51-source.zip
+          unzip -q cinder-3.51-source.zip
+          test -f cinder-jp/Makefile
+          test -f cinder-jp/source/version.h
+
+      - name: Verify Japanese glyph atlas
+        working-directory: cinder-jp
+        run: tests/run_japanese_font_test.sh
+
+      - name: Build 3DSX
+        working-directory: cinder-jp
+        env:
+          DEVKITPRO: /opt/devkitpro
+          DEVKITARM: /opt/devkitpro/devkitARM
+        run: |
+          export PATH="$DEVKITPRO/tools/bin:$DEVKITARM/bin:$PATH"
+          make clean
+          make all
+
+      - name: Verify build outputs
+        working-directory: cinder-jp
+        run: |
+          test -s cinder.3dsx
+          test -s cinder.elf
+          test -s cinder.smdh
+          file cinder.3dsx
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cinder-3.51-3dsx-test-build
+          path: |
+            cinder-jp/cinder.3dsx
+            cinder-jp/cinder.elf
+            cinder-jp/cinder.smdh
+          if-no-files-found: error
