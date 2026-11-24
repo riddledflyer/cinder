@@ -1,0 +1,136 @@
+BasicInfo:
+  Title                   : "Cinder"
+  CompanyCode             : "00"
+  ProductCode             : "CTR-HB-CNDR"
+  ContentType             : Application
+  Logo                    : HomebrewLegacy
+
+TitleInfo:
+  UniqueId                : 0xc1d4
+  Category                : Application
+
+Option:
+  UseOnSD                 : true
+  EnableCompress          : false
+  FreeProductCode         : true
+  EnableCrypt             : false
+  MediaFootPadding        : true
+
+AccessControlInfo:
+  ExtSaveDataId: 0x00c1d4
+  SystemSaveDataId1: 0x00000000
+  SystemSaveDataId2: 0x00000000
+  OtherUserSaveDataId1: 0x00000
+  OtherUserSaveDataId2: 0x00000
+  OtherUserSaveDataId3: 0x00000
+  UseOtherVariationSaveData : false
+  FileSystemAccess:
+   - CategorySystemApplication
+   - CategoryFileSystemTool
+   - Debug
+   - DirectSdmc
+   - TwlNandData
+  IoAccessControl:
+   - FsMountTwln
+  IdealProcessor                : 0
+  AffinityMask                  : 1
+  Priority                      : 16
+  MaxCpu                        : 0
+  CoreVersion                   : 2
+  DescVersion                   : 2
+  ReleaseKernelMajor            : "02"
+  ReleaseKernelMinor            : "51"
+  MemoryType                    : Application
+  SystemMode                    : 64MB
+  HandleTableSize               : 512
+  DisableDebug                  : false
+  EnableForceDebug              : false
+  CanWriteSharedPage            : false
+  CanUsePrivilegedPriority      : false
+  CanUseNonAlphabetAndNumber    : true
+  PermitMainFunctionArgument    : false
+  CanShareDeviceMemory          : false
+  RunnableOnSleep               : false
+  SpecialMemoryArrange          : false
+  SystemCallAccess:
+    ControlMemory: 1
+    QueryMemory: 2
+    ExitProcess: 3
+    GetProcessIdealProcessor: 6
+    CreateThread: 8
+    ExitThread: 9
+    SleepThread: 10
+    GetThreadPriority: 11
+    SetThreadPriority: 12
+    GetThreadIdealProcessor: 15
+    GetCurrentProcessorNumber: 17
+    CreateMutex: 19
+    ReleaseMutex: 20
+    CreateSemaphore: 21
+    ReleaseSemaphore: 22
+    CreateEvent: 23
+    SignalEvent: 24
+    ClearEvent: 25
+    CreateTimer: 26
+    SetTimer: 27
+    CancelTimer: 28
+    ClearTimer: 29
+    CreateMemoryBlock: 30
+    MapMemoryBlock: 31
+    UnmapMemoryBlock: 32
+    CreateAddressArbiter: 33
+    ArbitrateAddress: 34
+    CloseHandle: 35
+    WaitSynchronization1: 36
+    WaitSynchronizationN: 37
+    DuplicateHandle: 39
+    GetSystemTick: 40
+    GetHandleInfo: 41
+    GetSystemInfo: 42
+    GetProcessInfo: 43
+    GetThreadInfo: 44
+    ConnectToPort: 45
+    SendSyncRequest1: 46
+    SendSyncRequest2: 47
+    SendSyncRequest3: 48
+    SendSyncRequest4: 49
+    SendSyncRequest: 50
+    GetProcessId: 53
+    GetProcessIdOfThread: 54
+    GetThreadId: 55
+    GetResourceLimit: 56
+    GetResourceLimitLimitValues: 57
+    GetResourceLimitCurrentValues: 58
+    GetThreadContext: 59
+    Break: 60
+    OutputDebugString: 61
+  ServiceAccessControl:
+   - APT:U
+   - am:u
+   - boss:U
+   - cam:u
+   - cecd:u
+   - cfg:u
+   - csnd:SND
+   - dlp:FKCL
+   - dsp::DSP
+   - frd:u
+   - fs:USER
+   - gsp::Gpu
+   - hid:USER
+   - http:C
+   - ir:USER
+   - mic:u
+   - ndm:u
+   - news:u
+   - nfc:u
+   - nwm::UDS
+   - ptm:u
+   - qtm:u
+   - ssl:C
+   - y2r:u
+
+SystemControlInfo:
+  SaveDataSize: 0K
+  RemasterVersion: 80
+  StackSize: 0x40000

@@ -1,0 +1,1624 @@
+         w __deregister_frame_info
+         w __register_frame_info
+         w userAppExit
+         w userAppInit
+00000000 b _TLS_MODULE_BASE_
+00000000 00000802 B __ctru_dev_utf16_buf
+00000000 A __sync_synchronize
+00000000 a shift
+00000000 a shift
+00000804 00000401 B __ctru_dev_path_buf
+00100000 A __start__
+00100000 T _start
+00100008 T __service_ptr
+0010000c T __apt_appid
+00100010 T __heap_size
+00100014 T __linear_heap_size
+00100018 T __system_arglist
+0010001c T __system_runflags
+00100020 t startup
+00100058 t ClearMem
+0010006c t ClrLoop
+00100094 T _init
+001000ac t .udivsi3_skip_div0_test
+001000ac T __aeabi_uidiv
+001000ac 000001ec T __udivsi3
+00100298 00000020 T __aeabi_uidivmod
+001002b8 T __aeabi_idiv
+001002b8 00000220 T __divsi3
+001002c0 t .divsi3_skip_div0_test
+001004d8 00000020 T __aeabi_idivmod
+001004f8 00000004 W __aeabi_idiv0
+001004f8 00000004 W __aeabi_ldiv0
+001004fc T __aeabi_drsub
+00100504 000002b0 T __aeabi_dsub
+00100504 000002b0 T __subdf3
+00100508 000002ac T __adddf3
+00100508 000002ac T __aeabi_dadd
+001007b4 00000024 T __aeabi_ui2d
+001007b4 00000024 T __floatunsidf
+001007d8 00000028 T __aeabi_i2d
+001007d8 00000028 T __floatsidf
+00100800 00000048 T __aeabi_f2d
+00100800 00000048 T __extendsfdf2
+00100848 00000074 T __aeabi_ul2d
+00100848 00000074 T __floatundidf
+0010085c 00000060 T __aeabi_l2d
+0010085c 00000060 T __floatdidf
+001008bc 0000019c T __aeabi_frsub
+001008c4 00000194 T __aeabi_fsub
+001008c4 00000194 T __subsf3
+001008c8 00000190 T __addsf3
+001008c8 00000190 T __aeabi_fadd
+00100a58 00000028 T __aeabi_ui2f
+00100a58 00000028 T __floatunsisf
+00100a60 00000020 T __aeabi_i2f
+00100a60 00000020 T __floatsisf
+00100a80 0000008c T __aeabi_ul2f
+00100a80 0000008c T __floatundisf
+00100a90 0000007c T __aeabi_l2f
+00100a90 0000007c T __floatdisf
+00100b0c T __aeabi_ldivmod
+00100be0 T __aeabi_uldivmod
+00100c28 00000390 T strcmp
+00100fb0 t __do_global_dtors_aux
+00101000 t frame_dummy
+0010102c 00000254 t explain_result(long)
+00101280 000000c0 t utf8_advance(char const*)
+00101340 000000f0 t nudge(int*, int, int, int)
+00101430 0000005c t panel(char const*)
+0010148c 0000015c t cmp_visible(void const*, void const*)
+001015e8 000000b0 t draw_selection(unsigned long, unsigned long long, float)
+00101698 00000074 t group_head(char const*)
+0010170c 00000120 t draw_pill(ImDrawList*, float, float, float, char const*)
+0010182c 000000dc t draw_face(ImDrawList*, float, float, float, char const*)
+00101908 0000017c t icon_tex(TitleRec const*, unsigned long)
+00101a84 000001f4 t corner_view()
+00101c78 00000184 t draw_picked(ImDrawList*, ImVec2, float)
+00101dfc 0000011c t scroll_follow(char const*, float, float)
+00101f18 00000160 t drag_scroll()
+00102078 0000014c t delete_selected(TitleList*, bool, bool)
+001021c4 00000108 t on_progress(unsigned long, unsigned long, unsigned long long, long, bool, void*)
+001022cc 0000006c t repeat_key(unsigned long, unsigned long, unsigned long, int*)
+00102338 0000022c t wrap_name(char*, unsigned int, char const*, int)
+00102564 0000022c t on_cia_pump(CiaRec const*, unsigned long, unsigned long, unsigned long long, void*)
+00102790 00000494 t install_selected(CiaList*, TitleList*, long*, char*, unsigned int, bool, int*, int*) [clone .constprop.0]
+00102c24 00000078 t storage_line(char*, unsigned int, char const*, long, FS_ArchiveResource const*) [clone .part.0] [clone .constprop.0]
+00102c9c 000005b0 t draw_clock_line()
+0010324c 00000094 t draw_loading()
+001032e0 00000018 t load_pump()
+001032f8 000000fc t clip_chars(char*, unsigned int, char const*, int) [clone .constprop.0]
+001033f4 000002e8 t list_row(char const*, bool, bool, void*, char const*, char const*, char const*)
+001036dc 0000018c t build_visible(TitleList const*, int, int*) [clone .constprop.0]
+00103868 00000108 t group_span(TitleList const*, int const*, int, int, int*) [clone .constprop.0] [clone .isra.0]
+00103970 000001f0 t grid_cell(char const*, bool, bool, void*, char const*, float) [clone .isra.0]
+00103b60 000001e0 t storage_side(float)
+00103d40 0000037c t draw_prompts(int const*, char const* const*, int) [clone .constprop.0]
+001040bc 00002ec4 T main
+00106f80 00000288 t apply_style()
+00107208 000001f4 t upload(GpuImage*, unsigned long const*, int)
+001073fc 00000998 t render_draw_data(ImDrawData*)
+00107d94 0000035c T ui_init
+001080f0 00000050 T ui_drop_images
+00108140 00000114 T ui_exit
+00108254 00000404 T ui_image
+00108658 00000228 T ui_screen
+00108880 00000080 T ui_present
+00108900 00000040 t ChildWindowComparer(void const*, void const*)
+00108940 0000012c t CalcWindowContentSizes(ImGuiWindow*, ImVec2*, ImVec2*)
+00108a6c 00000090 t LockWheelingWindow(ImGuiWindow*, float)
+00108afc 00000168 t CalcNextScrollFromScrollTargetAndClamp(ImGuiWindow*)
+00108c64 00000014 t GetClipboardTextFn_DefaultImpl(void*)
+00108c78 000000e8 t GetResizeBorderRect(ImGuiWindow*, int, float, float)
+00108d60 000000b8 t ImGui::NavApplyItemToResult(ImGuiNavItemData*)
+00108e18 00000110 t ImGuiListClipper_SeekCursorForItem(ImGuiListClipper*, int)
+00108f28 00000004 t FreeWrapper(void*, void*)
+00108f2c 00000004 t MallocWrapper(unsigned int, void*)
+00108f30 000000e4 t WindowSettingsHandler_ReadLine(ImGuiContext*, ImGuiSettingsHandler*, void*, char const*)
+00109014 000000e0 t GetViewportBgFgDrawList(ImGuiViewportP*, unsigned int, char const*)
+001090f4 00000148 t RenderWindowOuterSingleBorder(ImGuiWindow*, int, unsigned int, float)
+0010923c 00000028 t ImGui::NavUpdateAnyRequestFlag() [clone .part.0]
+00109264 00000028 t ImGui::GetStyleVarInfo(int) [clone .part.0]
+0010928c 00000028 t ImGui::GetIO() [clone .part.0]
+001092b4 00000028 t ImGui::SetActiveIdUsingAllKeyboardKeys() [clone .part.0]
+001092dc 00000028 t ImVector<char>::operator[](int) [clone .part.0]
+00109304 00000028 t ImVector<ImFont*>::operator[](int) [clone .part.0]
+0010932c 00000028 t ImVector<ImGuiInputEvent>::operator[](int) [clone .part.0]
+00109354 00000028 t ImVector<ImGuiListClipperRange>::operator[](int) [clone .part.0]
+0010937c 00000028 t ImVector<ImGuiListClipperData>::operator[](int) [clone .part.0]
+001093a4 00000028 t ImVector<ImGuiColorMod>::back() [clone .part.0]
+001093cc 00000028 t ImVector<ImGuiViewportP*>::operator[](int) [clone .part.0]
+001093f4 000000b8 t AddWindowToDrawData(ImGuiWindow*, int)
+001094ac 00000028 t ImVector<ImGuiWindow*>::operator[](int) [clone .part.0]
+001094d4 00000028 t ImGui::FindWindowFocusIndex(ImGuiWindow*) [clone .part.0]
+001094fc 00000028 t ImVector<ImVec4>::back() [clone .part.0]
+00109524 00000028 t ImVector<ImDrawCmd>::back() [clone .part.0]
+0010954c 00000028 t ImVector<ImGuiPopupData>::operator[](int) [clone .part.0]
+00109574 00000028 t ImVector<ImGuiWindowStackData>::back() [clone .part.0]
+0010959c 00000028 t ImVector<ImGuiPopupData>::back() [clone .part.0]
+001095c4 00000028 t ImVector<ImGuiWindow*>::back() [clone .part.0]
+001095ec 00000028 t ImVector<int>::back() [clone .part.0]
+00109614 00000028 t ImVector<int>::pop_back() [clone .part.0]
+0010963c 00000028 t ImVector<float>::back() [clone .part.0]
+00109664 00000028 t ImVector<unsigned int>::back() [clone .part.0]
+0010968c 00000028 t ImGui::PopID() [clone .part.0]
+001096b4 00000028 t ImVector<ImGuiKeyRoutingData>::operator[](int) [clone .part.0]
+001096dc 00000028 t ImVector<ImGuiGroupData>::back() [clone .part.0]
+00109704 00000028 t ImVector<ImGuiTable>::operator[](int) [clone .part.0]
+0010972c 00000028 t ImGui::EndTooltip() [clone .part.0]
+00109754 00000028 t ImChunkStream<ImGuiWindowSettings>::offset_from_ptr(ImGuiWindowSettings const*) [clone .part.0]
+0010977c 00000028 t ImChunkStream<ImGuiWindowSettings>::next_chunk(ImGuiWindowSettings*) [clone .part.0]
+001097a4 00000004 t SetPlatformImeDataFn_DefaultImpl(ImGuiViewport*, ImGuiPlatformImeData*)
+001097a8 00000088 t FindWindowNavFocusable(int, int, int)
+00109830 00000140 t SetCurrentWindow(ImGuiWindow*)
+00109970 0000013c t NavUpdateWindowingHighlightWindow(int)
+00109aac 000001d8 t CalcWindowSizeAfterConstraint(ImGuiWindow*, ImVec2 const&) [clone .isra.0]
+00109c84 000000d8 t CalcResizePosSizeFromAnyCorner(ImGuiWindow*, ImVec2 const&, ImVec2 const&, ImVec2*, ImVec2*) [clone .isra.0]
+00109d5c 0000007c t WindowSettingsHandler_ClearAll(ImGuiContext*, ImGuiSettingsHandler*)
+00109dd8 00000160 t WindowSettingsHandler_ApplyAll(ImGuiContext*, ImGuiSettingsHandler*)
+00109f38 00000110 t ImGui::SetWindowPos(ImGuiWindow*, ImVec2 const&, int) [clone .part.0]
+0010a048 000001b0 t InitOrLoadWindowSettings(ImGuiWindow*, ImGuiWindowSettings*)
+0010a1f8 000004c4 t ImGui::NavScoreItem(ImGuiNavItemData*)
+0010a6bc 00000360 t ImGui::RenderDimmedBackgroundBehindWindow(ImGuiWindow*, unsigned int) [clone .part.0]
+0010aa1c 00000160 t AddWindowToSortBuffer(ImVector<ImGuiWindow*>*, ImGuiWindow*)
+0010ab7c 0000012c t SetClipboardTextFn_DefaultImpl(void*, char const*)
+0010aca8 000002f4 t CalcWindowAutoFitSize(ImGuiWindow*, ImVec2 const&)
+0010af9c 0000007c t GetMergedModsFromKeys()
+0010b018 00000268 t UpdateWindowInFocusOrderList(ImGuiWindow*, bool, int)
+0010b280 00000224 t ImGui::NavCalcPreferredRefPos()
+0010b4a4 000001d4 T ImGuiStyle::ImGuiStyle()
+0010b4a4 000001d4 T ImGuiStyle::ImGuiStyle()
+0010b678 0000014c T ImGuiIO::ImGuiIO()
+0010b678 0000014c T ImGuiIO::ImGuiIO()
+0010b7c4 000000c0 T ImGuiIO::ClearInputKeys()
+0010b884 0000009c T ImGuiIO::ClearInputMouse()
+0010b920 00000280 T ImGuiIO::AddMousePosEvent(float, float)
+0010bba0 00000324 T ImGuiIO::AddMouseButtonEvent(int, bool)
+0010bec4 000000c8 T ImStrdupcpy(char*, unsigned int*, char const*)
+0010bf8c 00000024 T ImStrSkipBlank(char const*)
+0010bfb0 00000054 T ImFormatString(char*, unsigned int, char const*, ...)
+0010c004 00000124 T ImFormatStringToTempBufferV(char const**, char const**, char const*, std::__va_list)
+0010c128 0000002c T ImFormatStringToTempBuffer(char const**, char const**, char const*, ...)
+0010c154 00000114 T ImHashStr(char const*, unsigned int, unsigned int)
+0010c268 00000084 T ImFileGetSize(__sFILE*)
+0010c2ec 00000114 T ImFileLoadToMemory(char const*, char const*, unsigned int*, int)
+0010c400 00000148 T ImTextCharFromUtf8(unsigned int*, char const*, char const*)
+0010c548 000000f8 T ImGui::ColorConvertFloat4ToU32(ImVec4 const&)
+0010c640 000001dc T ImGuiStorage::GetIntRef(unsigned int, int)
+0010c81c 000001d4 T ImGuiStorage::SetVoidPtr(unsigned int, void*)
+0010c9f0 000001c4 T ImGuiTextBuffer::append(char const*, char const*)
+0010cbb4 000001ec T ImGuiTextBuffer::appendfv(char const*, std::__va_list)
+0010cda0 0000002c T ImGuiTextBuffer::appendf(char const*, ...)
+0010cdcc 00000024 T ImGuiListClipper::ImGuiListClipper()
+0010cdcc 00000024 T ImGuiListClipper::ImGuiListClipper()
+0010cdf0 00000260 T ImGuiListClipper::Begin(int, float)
+0010d050 000000e4 T ImGuiListClipper::End()
+0010d134 0000001c T ImGuiListClipper::~ImGuiListClipper()
+0010d134 0000001c T ImGuiListClipper::~ImGuiListClipper()
+0010d150 00000dd8 T ImGuiListClipper::Step()
+0010df28 00000048 T ImGui::GetStyle()
+0010df70 00000054 T ImGui::GetColorU32(int, float)
+0010dfc4 00000040 T ImGui::GetColorU32(ImVec4 const&)
+0010e004 00000194 T ImGui::PushStyleColor(int, unsigned int)
+0010e198 00000134 T ImGui::PushStyleColor(int, ImVec4 const&)
+0010e2cc 00000098 T ImGui::PopStyleColor(int)
+0010e364 00000184 T ImGui::PushStyleVar(int, float)
+0010e4e8 00000188 T ImGui::PushStyleVar(int, ImVec2 const&)
+0010e670 0000010c T ImGui::PopStyleVar(int)
+0010e77c 00000058 T ImGui::FindRenderedTextEnd(char const*, char const*)
+0010e7d4 00000174 T ImGui::RenderFrame(ImVec2, ImVec2, unsigned int, bool, float)
+0010e948 00000130 T ImGui::RenderFrameBorder(ImVec2, ImVec2, float)
+0010ea78 00000278 T ImGui::RenderNavHighlight(ImRect const&, unsigned int, int)
+0010ecf0 000002f4 T ImGui::RenderMouseCursor(ImVec2, float, int, unsigned int, unsigned int, unsigned int)
+0010efe4 00000010 T ImGui::SetCurrentContext(ImGuiContext*)
+0010eff4 00000260 T ImGuiWindow::ImGuiWindow(ImGuiContext*, char const*)
+0010eff4 00000260 T ImGuiWindow::ImGuiWindow(ImGuiContext*, char const*)
+0010f254 000002bc T ImGuiWindow::~ImGuiWindow()
+0010f254 000002bc T ImGuiWindow::~ImGuiWindow()
+0010f510 00000090 T ImGui::GcCompactTransientMiscBuffers()
+0010f5a0 0000010c T ImGui::GcCompactTransientWindowBuffers(ImGuiWindow*)
+0010f6ac 00000100 T ImGui::GcAwakeTransientWindowBuffers(ImGuiWindow*)
+0010f7ac 000001f4 T ImGui::SetActiveID(unsigned int, ImGuiWindow*)
+0010f9a0 0000000c T ImGui::ClearActiveID()
+0010f9ac 0000003c T ImGui::SetHoveredID(unsigned int)
+0010f9e8 00000094 T ImGui::MarkItemEdited(unsigned int)
+0010fa7c 00000094 T ImGui::IsWindowContentHoverable(ImGuiWindow*, int)
+0010fb10 000000b4 T ImGui::IsClippedEx(ImRect const&, unsigned int)
+0010fbc4 00000078 T ImGui::CalcWrapWidthForPos(ImVec2 const&, float)
+0010fc3c 0000001c T ImGui::MemAlloc(unsigned int)
+0010fc58 0000001c T ImGui::MemFree(void*)
+0010fc74 00000024 T ImGui::GetIO()
+0010fc98 0000003c T ImGui::GetDrawData()
+0010fcd4 00000074 T ImGui::PushClipRect(ImVec2 const&, ImVec2 const&, bool)
+0010fd48 00000068 T ImGui::PopClipRect()
+0010fdb0 00000108 T ImGui::CalcTextSize(char const*, char const*, bool, float)
+0010feb8 000002e0 T ImGui::RenderTextClippedEx(ImDrawList*, ImVec2 const&, ImVec2 const&, char const*, char const*, ImVec2 const*, ImVec2 const&, ImRect const*)
+00110198 00000234 T ImGui::FindHoveredWindowEx(ImVec2 const&, bool, ImGuiWindow**, ImGuiWindow**)
+001103d0 0000042c T ImGui::UpdateHoveredWindowAndCaptureFlags()
+001107fc 0000002c T ImGui::IsItemActive()
+00110828 00000030 T ImGui::GetItemRectMin()
+00110858 00000030 T ImGui::GetItemRectMax()
+00110888 000000f0 T ImGui::FindWindowByName(char const*)
+00110978 00000040 T ImGui::CalcWindowNextAutoFitSize(ImGuiWindow*)
+001109b8 000000e4 T ImGui::UpdateWindowParentAndRootLinks(ImGuiWindow*, int, ImGuiWindow*)
+00110a9c 000000a4 T ImGui::UpdateWindowSkipRefresh(ImGuiWindow*)
+00110b40 000000ac T ImGui::FindBlockingModal(ImGuiWindow*)
+00110bec 00000118 T ImGui::BringWindowToFocusFront(ImGuiWindow*)
+00110d04 000000bc T ImGui::BringWindowToDisplayFront(ImGuiWindow*)
+00110dc0 00000094 T ImGui::FindWindowDisplayIndex(ImGuiWindow*)
+00110e54 000000bc T ImGui::FindBottomMostVisibleWindowWithinBeginStack(ImGuiWindow*)
+00110f10 000000d4 T ImGui::BringWindowToDisplayBehind(ImGuiWindow*, ImGuiWindow*)
+00110fe4 00000108 T ImGui::SetCurrentFont(ImFont*)
+001110ec 00000148 T ImGui::BeginDisabled(bool)
+00111234 000000a0 T ImGui::EndDisabled()
+001112d4 00000138 T ImGui::BeginDisabledOverrideReenable()
+0011140c 0000009c T ImGui::EndDisabledOverrideReenable()
+001114a8 00000100 T ImGui::PushTextWrapPos(float)
+001115a8 0000004c T ImGui::PopTextWrapPos()
+001115f4 00000088 T ImGui::IsWindowAbove(ImGuiWindow*, ImGuiWindow*)
+0011167c 000001e8 T ImGui::IsWindowHovered(int)
+00111864 0000001c T ImGui::GetWindowWidth()
+00111880 00000030 T ImGui::GetWindowPos()
+001118b0 00000164 T ImGui::SetWindowSize(ImGuiWindow*, ImVec2 const&, int)
+00111a14 00000084 T ImGui::SetNextWindowPos(ImVec2 const&, int, ImVec2 const&)
+00111a98 00000080 T ImGui::SetNextWindowSize(ImVec2 const&, int)
+00111b18 0000005c T ImGui::SetNextWindowSizeConstraints(ImVec2 const&, ImVec2 const&, void (*)(ImGuiSizeCallbackData*), void*)
+00111b74 0000002c T ImGui::SetNextWindowScroll(ImVec2 const&)
+00111ba0 00000024 T ImGui::GetWindowDrawList()
+00111bc4 00000088 T ImGui::SetWindowFontScale(float)
+00111c4c 00000108 T ImGui::PushFocusScope(unsigned int)
+00111d54 00000088 T ImGui::PopFocusScope()
+00111ddc 0000037c T ImGui::SetNavFocusScope(unsigned int)
+00112158 00000034 T ImGuiWindow::GetID(char const*, char const*)
+0011218c 00000068 T ImGuiWindow::GetID(int)
+001121f4 0000009c T ImGuiWindow::GetIDFromRectangle(ImRect const&)
+00112290 000002fc T ImGui::IsItemHovered(int)
+0011258c 000000e4 T ImGui::PushID(char const*)
+00112670 000000e8 T ImGui::PushOverrideID(unsigned int)
+00112758 0000000c T ImGui::GetIDWithSeed(char const*, char const*, unsigned int)
+00112764 00000034 T ImGui::PopID()
+00112798 0000003c T ImGui::GetID(char const*)
+001127d4 00000090 T ImGui::GetKeyData(ImGuiContext*, ImGuiKey)
+00112864 000000c4 T ImGui::GetKeyName(ImGuiKey)
+00112928 00000130 T ImGui::GetKeyChordName(int)
+00112a58 00000098 T ImGui::CalcTypematicRepeatAmount(float, float, float, float)
+00112af0 000000b0 T ImGui::GetKeyPressedAmount(ImGuiKey, float, float)
+00112ba0 00000080 T ImGui::GetKeyMagnitude2d(ImGuiKey, ImGuiKey, ImGuiKey, ImGuiKey)
+00112c20 0000022c T ImGui::GetShortcutRoutingData(int)
+00112e4c 000002f0 T ImGui::SetShortcutRouting(int, int, unsigned int)
+0011313c 000000d8 T ImGui::IsMouseHoveringRect(ImVec2 const&, ImVec2 const&, bool)
+00113214 0000008c T ImGui::IsMouseDragging(int, float)
+001132a0 000006f8 T ImGui::UpdateInputEvents(bool)
+00113998 00000184 T ImGui::TestKeyOwner(ImGuiKey, unsigned int)
+00113b1c 000000a4 T ImGui::IsKeyDown(ImGuiKey, unsigned int)
+00113bc0 0000024c T ImGui::IsKeyPressed(ImGuiKey, int, unsigned int)
+00113e0c 000000b8 T ImGui::IsKeyReleased(ImGuiKey, unsigned int)
+00113ec4 00000060 T ImGui::IsMouseDown(int, unsigned int)
+00113f24 000000f8 T ImGui::IsMouseClicked(int, int, unsigned int)
+0011401c 00000008 T ImGui::IsMouseClicked(int, bool)
+00114024 00000064 T ImGui::IsMouseReleased(int)
+00114088 00000060 T ImGui::IsMouseReleased(int, unsigned int)
+001140e8 0000009c T ImGui::IsItemClicked(int)
+00114184 00000114 T ImGui::SetKeyOwner(ImGuiKey, unsigned int, int)
+00114298 00000098 T ImGui::SetKeyOwnersForKeyChord(int, unsigned int, int)
+00114330 000000cc T ImGui::IsKeyChordPressed(int, int, unsigned int)
+001143fc 000000d8 T ImGui::Shortcut(int, int, unsigned int)
+001144d4 000000a0 T ImGui::ErrorCheckUsingSetCursorPosToExtendParentBoundaries()
+00114574 000001a4 T ImGuiStackSizes::CompareWithContextState(ImGuiContext*)
+00114718 00000030 T ImGui::KeepAliveID(unsigned int)
+00114748 000000c0 T ImGui::SameLine(float, float)
+00114808 00000154 T ImGui::ItemSize(ImVec2 const&, float)
+0011495c 00000034 T ImGui::GetCursorScreenPos()
+00114990 00000030 T ImGui::SetCursorScreenPos(ImVec2 const&)
+001149c0 00000038 T ImGui::SetCursorPosX(float)
+001149f8 00000038 T ImGui::SetCursorPosY(float)
+00114a30 0000004c T ImGui::PopItemWidth()
+00114a7c 0000008c T ImGui::CalcItemWidth()
+00114b08 00000188 T ImGui::CalcItemSize(ImVec2, float, float)
+00114c90 00000018 T ImGui::GetTextLineHeight()
+00114ca8 00000024 T ImGui::GetTextLineHeightWithSpacing()
+00114ccc 00000028 T ImGui::GetFrameHeight()
+00114cf4 0000005c T ImGui::GetContentRegionAvail()
+00114d50 00000038 T ImGui::GetWindowContentRegionMin()
+00114d88 00000038 T ImGui::GetWindowContentRegionMax()
+00114dc0 000001ac T ImGui::BeginGroup()
+00114f6c 000004f0 T ImGui::ScrollToRectEx(ImGuiWindow*, ImRect const&, int)
+0011545c 0000001c T ImGui::GetScrollY()
+00115478 0000001c T ImGui::GetScrollMaxY()
+00115494 00000028 T ImGui::SetScrollY(float)
+001154bc 000000fc T ImGui::IsPopupOpen(unsigned int, int)
+001155b8 00000070 T ImGui::GetTopMostAndVisiblePopupModal()
+00115628 00000388 T ImGui::FindBestWindowPosForPopupEx(ImVec2 const&, ImVec2 const&, ImGuiDir*, ImRect const&, ImRect const&, ImGuiPopupPositionPolicy)
+001159b0 000000b8 T ImGui::GetPopupAllowedExtentRect(ImGuiWindow*)
+00115a68 000002d8 T ImGui::FindBestWindowPosForPopup(ImGuiWindow*)
+00115d40 0000004c T ImGui::SetNavWindow(ImGuiWindow*)
+00115d8c 000002c0 T ImGui::FocusWindow(ImGuiWindow*, int)
+0011604c 000000cc T ImGui::StartMouseMovingWindow(ImGuiWindow*)
+00116118 00000148 T ImGui::UpdateMouseMovingWindowNewFrame()
+00116260 00000114 T ImGui::FocusTopMostWindowUnderOne(ImGuiWindow*, ImGuiWindow*, ImGuiViewport*, int)
+00116374 00000178 T ImGui::ClosePopupToLevel(int, bool)
+001164ec 00000304 T ImGui::OpenPopupEx(unsigned int, int)
+001167f0 00000104 T ImGui::ClosePopupsOverWindow(ImGuiWindow*, bool)
+001168f4 000000b8 T ImGui::CloseCurrentPopup()
+001169ac 00000204 T ImGui::UpdateMouseMovingWindowEndFrame()
+00116bb0 00000898 T ImGui::ItemAdd(ImRect const&, unsigned int, ImRect const*, int)
+00117448 00000340 T ImGui::EndGroup()
+00117788 00000fb4 t ImGui::UpdateWindowManualResize(ImGuiWindow*, ImVec2 const&, int*, int*, int, unsigned int*, ImRect const&) [clone .constprop.0]
+0011873c 000000e4 T ImGui::SetNavID(unsigned int, ImGuiNavLayer, unsigned int, ImRect const&)
+00118820 00000108 T ImGui::SetFocusID(unsigned int, ImGuiWindow*)
+00118928 00000034 T ImGui::NavUpdateCurrentWindowIsScrollPushableX()
+00118960 00000144 T ImGui::NavMoveRequestSubmit(ImGuiDir, ImGuiDir, int, int)
+00118aa4 00000114 T ImGui::NavInitWindow(ImGuiWindow*, bool)
+00118bb8 00000088 t ImGui::NavRestoreLayer(ImGuiNavLayer)
+00118c40 000000ac T ImGui::NavInitRequestApplyResult()
+00118cec 00000424 T ImGui::NavMoveRequestApplyResult()
+00119110 000027bc t ImGui::NavUpdate()
+0011b8cc 000000b8 T ImGui::ClearDragDrop()
+0011b984 00000138 T ImGui::LogText(char const*, ...)
+0011babc 000001ec T ImGui::LogRenderedText(ImVec2 const*, char const*, char const*)
+0011bca8 00000150 T ImGui::RenderText(ImVec2, char const*, char const*, bool)
+0011bdf8 000000ec T ImGui::RenderTextWrapped(ImVec2, char const*, char const*, float)
+0011bee4 000000f0 T ImGui::RenderTextClipped(ImVec2 const&, ImVec2 const&, char const*, char const*, ImVec2 const*, ImVec2 const&, ImRect const*)
+0011bfd4 000003c8 T ImGui::RenderTextEllipsis(ImDrawList*, ImVec2 const&, ImVec2 const&, float, float, char const*, char const*, ImVec2 const*)
+0011c39c 0000001c T ImGui::LogSetNextTextDecoration(char const*, char const*)
+0011c3b8 000001d4 T ImGui::LogFinish()
+0011c58c 0000021c T ImGui::End()
+0011c7a8 000000ec T ImGui::EndPopup()
+0011c894 00000210 T ImGui::EndChild()
+0011caa4 00000028 T ImGui::MarkIniSettingsDirty()
+0011cacc 000001f4 T ImGui::AddSettingsHandler(ImGuiSettingsHandler const*)
+0011ccc0 00000444 T ImGui::Initialize()
+0011d108 00000ad8 T ImGui::CreateContext(ImFontAtlas*)
+0011dbe0 000000c4 T ImGui::FindSettingsHandler(char const*)
+0011dca4 0000014c T ImGui::CreateNewWindowSettings(char const*)
+0011ddf0 000000b0 T ImGui::FindWindowSettingsByID(unsigned int)
+0011dea0 000000d0 t WindowSettingsHandler_ReadOpen(ImGuiContext*, ImGuiSettingsHandler*, char const*)
+0011df70 00000434 T ImGui::LoadIniSettingsFromMemory(char const*, unsigned int)
+0011e3a4 00000074 T ImGui::LoadIniSettingsFromDisk(char const*)
+0011e418 0000006c T ImGui::FindWindowSettingsByWindow(ImGuiWindow*)
+0011e488 00003b40 T ImGui::Begin(char const*, bool*, int)
+00121fc8 000003f0 T ImGui::BeginChildEx(char const*, unsigned int, ImVec2 const&, int, int)
+001223b8 00000078 T ImGui::BeginChild(char const*, ImVec2 const&, int, int)
+00122430 00000160 T ImGui::BeginTooltipEx(int, int)
+00122590 00000064 T ImGui::SetTooltip(char const*, ...)
+001225f4 00000218 T ImGui::ItemHoverable(ImRect const&, unsigned int, int)
+0012280c 000009f0 T ImGui::EndFrame()
+001231fc 00000860 T ImGui::Render()
+00123a5c 00000088 T ImGui::SetItemTooltip(char const*, ...)
+00123ae4 000002e0 t WindowSettingsHandler_WriteAll(ImGuiContext*, ImGuiSettingsHandler*, ImGuiTextBuffer*)
+00123dc4 00000188 T ImGui::SaveIniSettingsToMemory(unsigned int*)
+00123f4c 00000084 T ImGui::SaveIniSettingsToDisk(char const*)
+00123fd0 00002104 T ImGui::NewFrame()
+001260d4 00000134 W ImPool<ImGuiTable>::Clear()
+00126208 00000788 W ImGuiContext::~ImGuiContext()
+00126208 00000788 W ImGuiContext::~ImGuiContext()
+00126990 00000c18 T ImGui::Shutdown()
+001275a8 0000006c T ImGui::DestroyContext(ImGuiContext*)
+00127614 00000024 t rect_original_order(void const*, void const*)
+00127638 00000098 t stbtt__find_table(unsigned char*, unsigned int, char const*)
+001276d0 000000f0 t stbtt__close_shape(stbtt_vertex*, int, int, int, int, int, int, int, int, int)
+001277c0 000000b0 t stbtt__track_vertex(stbtt__csctx*, int, int)
+00127870 000000dc t stbtt__csctx_rccurve_to(stbtt__csctx*, float, float, float, float, float, float)
+0012794c 00000238 t stbtt__sort_edges_quicksort(stbtt__edge*, int)
+00127b84 000000d4 t stbtt__GetGlyfOffset(stbtt_fontinfo const*, int)
+00127c58 00000188 t stbtt__tesselate_cubic(stbtt__point*, int*, float, float, float, float, float, float, float, float, float, int)
+00127de0 00000040 t rect_height_compare(void const*, void const*)
+00127e20 00000024 t FixRectCornerFlags(int) [clone .part.0]
+00127e44 00000074 t stb__match(unsigned char const*, unsigned int)
+00127eb8 00000028 t stbtt__buf_seek(stbtt__buf*, int) [clone .part.0]
+00127ee0 00000274 t stbtt__handle_clipped_edge(float*, int, stbtt__active_edge*, float, float, float, float) [clone .part.0]
+00128154 00000070 t stb__lit(unsigned char const*, unsigned int)
+001281c4 00000028 t ImBitVector::SetBit(int) [clone .part.0]
+001281ec 00000028 t ImVector<ImFontAtlasCustomRect>::operator[](int) [clone .part.0]
+00128214 00000028 t ImFontAtlas::GetCustomRectByIndex(int) [clone .part.0]
+0012823c 00000028 t ImVector<int>::operator[](int) [clone .part.0]
+00128264 00000028 t ImVector<unsigned short>::operator[](int) [clone .part.0]
+0012828c 00000028 t ImVector<ImDrawChannel>::operator[](int) [clone .part.0]
+001282b4 00000028 t ImVector<ImDrawCmd>::back() [clone .part.0]
+001282dc 00000028 t ImVector<ImFontBuildSrcData>::operator[](int) [clone .part.0]
+00128304 00000028 t ImVector<ImFontConfig>::operator[](int) [clone .part.0]
+0012832c 00000028 t ImVector<ImFontBuildDstData>::operator[](int) [clone .part.0]
+00128354 00000028 t ImVector<stbrp_rect>::operator[](int) [clone .part.0]
+0012837c 00000028 t ImFontAtlasBuildSetupFont(ImFontAtlas*, ImFont*, ImFontConfig*, float, float) [clone .part.0]
+001283a4 00000028 t ImVector<ImFontGlyph>::operator[](int) [clone .part.0]
+001283cc 00000028 t ImVector<float>::operator[](int) [clone .part.0]
+001283f4 00000028 t ImVector<ImFontGlyph>::back() [clone .part.0]
+0012841c 00000174 t stbtt__tesselate_curve(stbtt__point*, int*, float, float, float, float, float, float, float, int) [clone .isra.0]
+00128590 00000338 t stbtt_FindGlyphIndex.isra.0
+001288c8 00000104 t stbrp__skyline_find_min_y(stbrp_context*, stbrp_node*, int, int, int*) [clone .isra.0]
+001289cc 00000534 t stbrp_pack_rects.isra.0
+00128f00 000000a4 t stbtt__csctx_rline_to(stbtt__csctx*, float, float)
+00128fa4 00000094 t stbtt__csctx_close_shape(stbtt__csctx*)
+00129038 00000094 t stbtt__csctx_rmove_to(stbtt__csctx*, float, float)
+001290cc 00000184 t stbtt__cff_index_get(stbtt__buf, int)
+00129250 00000168 t stbtt__cff_get_index(stbtt__buf*)
+001293b8 00000134 t stbtt__cff_int(stbtt__buf*)
+001294ec 00000164 t stbtt__dict_get_ints(stbtt__buf*, int, int, unsigned int*)
+00129650 0000010c t stbtt__get_subrs(stbtt__buf, stbtt__buf)
+0012975c 00000b7c t stbtt__run_charstring(stbtt_fontinfo const*, int, stbtt__csctx*)
+0012a2d8 000000dc t stbtt__GetGlyphShapeT2(stbtt_fontinfo const*, int, stbtt_vertex**)
+0012a3b4 000008b8 t stbtt__GetGlyphShapeTT(stbtt_fontinfo const*, int, stbtt_vertex**)
+0012ac6c 00000294 t stbtt_GetGlyphBitmapBoxSubpixel.constprop.0
+0012af00 00000818 t stbtt__fill_active_edges_new(float*, float*, int, stbtt__active_edge*, float)
+0012b718 0000043c T ImGui::StyleColorsDark(ImGuiStyle*)
+0012bb54 00000084 T ImDrawListSharedData::ImDrawListSharedData()
+0012bb54 00000084 T ImDrawListSharedData::ImDrawListSharedData()
+0012bbd8 000000ec T ImDrawListSharedData::SetCircleTessellationMaxError(float)
+0012bcc4 0000019c T ImDrawList::AddDrawCmd()
+0012be60 000000a0 T ImDrawList::_PopUnusedDrawCmd()
+0012bf00 00000104 T ImDrawList::_OnChangedClipRect()
+0012c004 000000e8 T ImDrawList::_OnChangedTextureID()
+0012c0ec 0000006c T ImDrawList::_OnChangedVtxOffset()
+0012c158 00000090 T ImDrawList::_CalcCircleAutoSegmentCount(float) const
+0012c1e8 0000018c T ImDrawList::PushClipRect(ImVec2 const&, ImVec2 const&, bool)
+0012c374 0000006c T ImDrawList::PopClipRect()
+0012c3e0 000000cc T ImDrawList::PushTextureID(void*)
+0012c4ac 00000050 T ImDrawList::PopTextureID()
+0012c4fc 0000019c T ImDrawList::PrimReserve(int, int)
+0012c698 00000c44 t ImDrawList::AddPolyline(ImVec2 const*, int, unsigned int, int, float) [clone .part.0]
+0012d2dc 00000414 t ImDrawList::AddConvexPolyFilled(ImVec2 const*, int, unsigned int) [clone .part.0]
+0012d6f0 0000024c t ImDrawList::AddTriangleFilled(ImVec2 const&, ImVec2 const&, ImVec2 const&, unsigned int) [clone .part.0]
+0012d93c 000000c8 T ImDrawList::PrimRect(ImVec2 const&, ImVec2 const&, unsigned int)
+0012da04 000000dc T ImDrawList::PrimRectUV(ImVec2 const&, ImVec2 const&, ImVec2 const&, ImVec2 const&, unsigned int)
+0012dae0 00000028 T ImDrawList::AddPolyline(ImVec2 const*, int, unsigned int, int, float)
+0012db08 00000028 T ImDrawList::AddConvexPolyFilled(ImVec2 const*, int, unsigned int)
+0012db30 00000350 T ImDrawList::_PathArcToFastEx(ImVec2 const&, float, int, int, int)
+0012de80 00000238 T ImDrawList::_PathArcToN(ImVec2 const&, float, float, float, int)
+0012e0b8 00000464 t ImDrawList::PathArcTo(ImVec2 const&, float, float, float, int) [clone .part.0]
+0012e51c 000000f0 T ImDrawList::PathArcToFast(ImVec2 const&, float, int, int)
+0012e60c 000000f4 T ImDrawList::PathArcTo(ImVec2 const&, float, float, float, int)
+0012e700 0000090c T ImDrawList::PathRect(ImVec2 const&, ImVec2 const&, float, int)
+0012f00c 00000200 T ImDrawList::AddLine(ImVec2 const&, ImVec2 const&, unsigned int, float)
+0012f20c 000000e4 T ImDrawList::AddRect(ImVec2 const&, ImVec2 const&, unsigned int, float, int, float)
+0012f2f0 00000098 T ImDrawList::AddRectFilled(ImVec2 const&, ImVec2 const&, unsigned int, float, int)
+0012f388 000001a0 T ImDrawList::AddCircle(ImVec2 const&, float, unsigned int, int, float)
+0012f528 000000c8 T ImDrawList::AddCircleFilled(ImVec2 const&, float, unsigned int, int)
+0012f5f0 000000b4 T ImDrawList::AddImage(void*, ImVec2 const&, ImVec2 const&, ImVec2 const&, ImVec2 const&, unsigned int)
+0012f6a4 000000fc T ImDrawListSplitter::ClearFreeMemory()
+0012f7a0 000000fc T ImDrawList::_ClearFreeMemory()
+0012f89c 00000190 T ImDrawListSplitter::SetCurrentChannel(ImDrawList*, int)
+0012fa2c 00000544 t ImDrawListSplitter::Merge(ImDrawList*) [clone .part.0]
+0012ff70 00000010 T ImDrawListSplitter::Merge(ImDrawList*)
+0012ff80 0000030c T ImDrawList::_ResetForNewFrame()
+0013028c 0000009c T ImDrawData::Clear()
+00130328 000001f8 T ImGui::AddDrawListToDrawDataEx(ImDrawData*, ImVector<ImDrawList*>*, ImDrawList*)
+00130520 00000050 T ImFontConfig::ImFontConfig()
+00130520 00000050 T ImFontConfig::ImFontConfig()
+00130570 00000028 T ImFontAtlas::ImFontAtlas()
+00130570 00000028 T ImFontAtlas::ImFontAtlas()
+00130598 00000130 T ImFontAtlas::ClearInputData()
+001306c8 0000006c T ImFontAtlas::ClearTexData()
+00130734 0000016c T ImFontAtlas::AddCustomRectRegular(int, int)
+001308a0 000000dc T ImFontAtlas::CalcCustomRectUV(ImFontAtlasCustomRect const*, ImVec2*, ImVec2*) const
+0013097c 00000168 T ImFontAtlas::GetMouseCursorTexData(int, ImVec2*, ImVec2*, ImVec2*, ImVec2*)
+00130ae4 000001a8 T ImFontAtlasBuildPackCustomRects(ImFontAtlas*, void*)
+00130c8c 000000ec T ImFontAtlasBuildRender8bppRectFromString(ImFontAtlas*, int, int, int, int, char const*, char, unsigned char)
+00130d78 000000f0 T ImFontAtlasBuildRender32bppRectFromString(ImFontAtlas*, int, int, int, int, char const*, char, unsigned int)
+00130e68 000000a0 T ImFontAtlasBuildInit(ImFontAtlas*)
+00130f08 00000080 T ImFont::ImFont()
+00130f08 00000080 T ImFont::ImFont()
+00130f88 0000035c T ImFontAtlas::AddFont(ImFontConfig const*)
+001312e4 00000130 T ImFontAtlas::AddFontFromMemoryTTF(void*, int, float, ImFontConfig const*, unsigned short const*)
+00131414 000003a8 T ImFontAtlas::AddFontFromMemoryCompressedTTF(void const*, int, float, ImFontConfig const*, unsigned short const*)
+001317bc 0000011c T ImFontAtlas::AddFontFromMemoryCompressedBase85TTF(char const*, float, ImFontConfig const*, unsigned short const*)
+001318d8 0000010c T ImFontAtlas::AddFontDefault(ImFontConfig const*)
+001319e4 0000008c T ImFontAtlas::Build()
+00131a70 000000e4 T ImFontAtlas::GetTexDataAsRGBA32(unsigned char**, int*, int*, int*)
+00131b54 000000a8 T ImFont::ClearOutputData()
+00131bfc 00000044 T ImFont::~ImFont()
+00131bfc 00000044 T ImFont::~ImFont()
+00131c40 000000d0 T ImFontAtlas::ClearFonts()
+00131d10 00000084 T ImFontAtlas::~ImFontAtlas()
+00131d10 00000084 T ImFontAtlas::~ImFontAtlas()
+00131d94 000001a4 T ImFont::GrowIndex(int)
+00131f38 00000748 T ImFont::BuildLookupTable()
+00132680 00000284 T ImFont::AddGlyph(ImFontConfig const*, unsigned short, float, float, float, float, float, float, float, float, float)
+00132904 000005d4 T ImFontAtlasBuildFinish(ImFontAtlas*)
+00132ed8 000030b0 t ImFontAtlasBuildWithStbTruetype(ImFontAtlas*)
+00135f88 000001cc T ImFont::CalcWordWrapPositionA(float, char const*, char const*, float) const
+00136154 00000230 T ImFont::CalcTextSizeA(float, float, float, char const*, char const*, char const**) const
+00136384 00000158 T ImFont::RenderChar(ImDrawList*, float, ImVec2 const&, unsigned int, unsigned short) const
+001364dc 00000654 T ImFont::RenderText(ImDrawList*, float, ImVec2 const&, unsigned int, ImVec4 const&, char const*, char const*, float, bool) const
+00136b30 00000188 T ImDrawList::AddText(ImFont const*, float, ImVec2 const&, unsigned int, char const*, char const*, float, ImVec4 const*)
+00136cb8 00000044 T ImDrawList::AddText(ImVec2 const&, unsigned int, char const*, char const*)
+00136cfc 00000164 T ImGui::RenderArrow(ImDrawList*, ImVec2, unsigned int, ImGuiDir, float)
+00136e60 00000090 T ImGui::RenderBullet(ImDrawList*, ImVec2, unsigned int)
+00136ef0 00000358 T ImGui::RenderCheckMark(ImDrawList*, ImVec2, unsigned int, float)
+00137248 00000cf4 T ImGui::RenderRectFilledRangeH(ImDrawList*, ImRect const&, unsigned int, float, float, float)
+00137f3c 000002ac t TableSettingsHandler_ReadLine(ImGuiContext*, ImGuiSettingsHandler*, void*, char const*)
+001381e8 00000028 t ImVector<ImGuiTableInstanceData>::operator[](int) [clone .part.0]
+00138210 00000028 t ImPool<ImGuiTable>::GetIndex(ImGuiTable const*) const [clone .part.0]
+00138238 00000028 t ImVector<float>::operator[](int) [clone .part.0]
+00138260 00000024 t ImSpan<ImGuiTableColumn>::operator[](int) [clone .part.0]
+00138284 00000024 t ImSpan<ImGuiTableCellData>::operator[](int) [clone .part.0]
+001382a8 00000028 t ImVector<ImGuiOldColumnData>::operator[](int) [clone .part.0]
+001382d0 00000028 t ImVector<ImGuiTable>::operator[](int) [clone .part.0]
+001382f8 00000028 t ImChunkStream<ImGuiTableSettings>::next_chunk(ImGuiTableSettings*) [clone .part.0]
+00138320 00000028 t ImVector<ImGuiStoragePair>::operator[](int) [clone .part.0]
+00138348 00000080 t TableSettingsHandler_ApplyAll(ImGuiContext*, ImGuiSettingsHandler*)
+001383c8 000000a4 t TableSettingsHandler_ClearAll(ImGuiContext*, ImGuiSettingsHandler*)
+0013846c 000003a4 t TableSettingsHandler_WriteAll(ImGuiContext*, ImGuiSettingsHandler*, ImGuiTextBuffer*)
+00138810 000000fc T ImGui::TableEndCell(ImGuiTable*)
+0013890c 00000148 T ImGui::TableSettingsCreate(unsigned int, int)
+00138a54 000000a4 T ImGui::TableSettingsFindByID(unsigned int)
+00138af8 000000ec t TableSettingsHandler_ReadOpen(ImGuiContext*, ImGuiSettingsHandler*, char const*)
+00138be4 00000084 T ImGui::TableSettingsAddSettingsHandler()
+00138c68 00000148 T ImGui::TableGcCompactTransientBuffers(ImGuiTable*)
+00138db0 00000020 T ImGui::TableGcCompactTransientBuffers(ImGuiTableTempData*)
+00138dd0 0000023c T ImGui::TableGcCompactSettings()
+0013900c 0000005c T ImGui::SetWindowClipRectBeforeSetChannel(ImGuiWindow*, ImRect const&)
+00139068 00000050 T ImGui::TablePushBackgroundChannel()
+001390b8 0000007c T ImGui::TablePopBackgroundChannel()
+00139134 00000884 T ImGui::TableEndRow(ImGuiTable*)
+001399b8 000000a4 T ImGui::GetColumnOffset(int)
+00139a5c 00000204 T ImGui::SetColumnOffset(int, float)
+00139c60 00000058 T ImGui::PushColumnsBackground()
+00139cb8 00000090 T ImGui::PopColumnsBackground()
+00139d48 00000428 T ImGui::EndColumns()
+0013a170 0000002c t ShrinkWidthItemComparer(void const*, void const*)
+0013a19c 0000007c t TabItemComparerBySection(void const*, void const*)
+0013a218 00000010 t TabItemComparerByBeginOrder(void const*, void const*)
+0013a228 00000028 t ImVec2::operator[](unsigned int) [clone .part.0]
+0013a250 00000028 t ImGui::MouseButtonToKey(int) [clone .part.0]
+0013a278 00000028 t ImGui::TabBarGetTabName(ImGuiTabBar*, ImGuiTabItem*) [clone .part.0]
+0013a2a0 00000028 t ImVector<ImGuiTabItem>::index_from_ptr(ImGuiTabItem const*) const [clone .part.0]
+0013a2c8 00000028 t ImVector<ImGuiTabItem>::operator[](int) [clone .part.0]
+0013a2f0 00000028 t ImVector<ImGuiShrinkWidthItem>::operator[](int) [clone .part.0]
+0013a318 00000028 t ImVector<ImGuiTabBar>::operator[](int) [clone .part.0]
+0013a340 0000048c T ImGui::TextEx(char const*, char const*, int)
+0013a7cc 00000008 T ImGui::TextUnformatted(char const*, char const*)
+0013a7d4 00000068 T ImGui::Text(char const*, ...)
+0013a83c 00000058 T ImGui::TextV(char const*, std::__va_list)
+0013a894 00000080 T ImGui::TextColored(ImVec4 const&, char const*, ...)
+0013a914 00000088 T ImGui::TextDisabled(char const*, ...)
+0013a99c 000000f4 T ImGui::TextWrapped(char const*, ...)
+0013aa90 00000878 T ImGui::ButtonBehavior(ImRect const&, unsigned int, bool*, bool*, int)
+0013b308 00000260 T ImGui::ButtonEx(char const*, ImVec2 const&, int)
+0013b568 00000008 T ImGui::Button(char const*, ImVec2 const&)
+0013b570 00000144 T ImGui::InvisibleButton(char const*, ImVec2 const&, int)
+0013b6b4 000001f0 T ImGui::ArrowButtonEx(char const*, ImGuiDir, ImVec2, int)
+0013b8a4 0000026c T ImGui::CloseButton(unsigned int, ImVec2 const&)
+0013bb10 000001d8 T ImGui::CollapseButton(unsigned int, ImVec2 const&)
+0013bce8 000000c4 T ImGui::GetWindowScrollbarRect(ImGuiWindow*, ImGuiAxis)
+0013bdac 0000067c T ImGui::ScrollbarEx(ImRect const&, unsigned int, ImGuiAxis, long long*, long long, long long, int)
+0013c428 00000160 T ImGui::Scrollbar(ImGuiAxis)
+0013c588 0000018c T ImGui::Image(void*, ImVec2 const&, ImVec2 const&, ImVec2 const&, ImVec4 const&, ImVec4 const&)
+0013c714 00000378 T ImGui::Checkbox(char const*, bool*)
+0013ca8c 00000388 T ImGui::ProgressBar(float, ImVec2 const&, char const*)
+0013ce14 00000090 T ImGui::Dummy(ImVec2 const&)
+0013cea4 00000288 T ImGui::SeparatorEx(int, float)
+0013d12c 00000048 T ImGui::Separator()
+0013d174 00000348 T ImGui::SeparatorTextEx(unsigned int, char const*, char const*, float)
+0013d4bc 00000054 T ImGui::SeparatorText(char const*)
+0013d510 000001f4 T ImGui::ShrinkWidths(ImGuiShrinkWidthItem*, int, float)
+0013d704 00000464 T ImGui::BeginComboPopup(unsigned int, ImRect const&, int)
+0013db68 00000674 T ImGui::BeginCombo(char const*, char const*, int)
+0013e1dc 00000184 T ImGui::InputTextDeactivateHook(unsigned int)
+0013e360 000005ac T ImGui::Selectable(char const*, bool, int, ImVec2 const&)
+0013e90c 000000f8 T ImGuiMenuColumns::CalcNextTotalWidth(bool)
+0013ea04 00000040 T ImGuiMenuColumns::Update(float, bool)
+0013ea44 00000354 T ImGui::BeginTabBarEx(ImGuiTabBar*, ImRect const&, int)
+0013ed98 000002b0 T ImGui::BeginTabBar(char const*, int)
+0013f048 0000018c T ImGui::TabBarQueueReorderFromMousePos(ImGuiTabBar*, ImGuiTabItem*, ImVec2)
+0013f1d4 000001b4 T ImGui::TabBarProcessReorder(ImGuiTabBar*)
+0013f388 000000b4 T ImGui::EndTabItem()
+0013f43c 000000a8 T ImGui::TabItemCalcSize(char const*, bool)
+0013f4e4 00001434 t ImGui::TabBarLayout(ImGuiTabBar*)
+00140918 000001e0 T ImGui::EndTabBar()
+00140af8 0000048c T ImGui::TabItemBackground(ImDrawList*, ImRect const&, int, unsigned int)
+00140f84 00000330 T ImGui::TabItemLabelAndCloseButton(ImDrawList*, ImRect const&, int, ImVec2, char const*, unsigned int, unsigned int, bool, bool*, bool*)
+001412b4 00000d10 T ImGui::TabItemEx(ImGuiTabBar*, char const*, bool*, int, ImGuiWindow*)
+00141fc4 0000011c T ImGui::BeginTabItem(char const*, bool*, int)
+001420e0 00000170 t apt_event
+00142250 000001d4 t play_from
+00142424 0000020c T bgm_start
+00142630 00000108 T bgm_poll
+00142738 00000168 T bgm_stop
+001428a0 0000004c t cmp_cia
+001428ec 000000d0 t title_installed
+001429bc 00000058 t sd_open.part.0
+00142a14 000000b8 t take_icon
+00142acc 000000c4 t wipe_title.part.0
+00142b90 00000058 t open_path.constprop.0
+00142be8 000002ac t read_info.constprop.0
+00142e98 00000894 t scan_dir
+0014372c 000005d0 T cias_link
+00143cfc 000000a0 T cias_free
+00143d9c 00000174 T cias_load
+00143f10 000007b0 T cias_install_one
+001446c0 0000012c t decode_nds_icon
+001447ec 00000b14 t scan_content_dir
+00145300 00000030 T dsi_shutdown
+00145330 00000094 T titles_anim_token
+001453c4 0000006c T titles_anim_frame
+00145430 00000130 T dsi_fill
+00145560 000005e4 T titles_is_licensed
+00145b44 00000118 t decode_tiled
+00145c5c 00000090 t decode_icon
+00145cec 000001dc t smdh_utf16_to_utf8.part.0.constprop.0
+00145ec8 00000278 T smdh_from_blob
+00146140 00000314 T smdh_fill_names
+00146454 0000004c t cmp_title
+001464a0 00000058 t fill_one
+001464f8 0000040c t cache_apply.constprop.0
+00146904 00000468 t cache_write
+00146d70 0000005c T titles_self_id
+00146dcc 000000f8 T titles_is_system_id
+00146ec4 0000007c T titles_is_home_menu
+00146f40 00000098 T titles_kind_of
+00146fd8 0000002c T titles_hidden
+00147004 0000001c T titles_kind_name
+00147020 000001b8 T titles_format_size
+001471d8 00000034 T titles_format_version
+0014720c 0000033c T titles_load
+00147548 00000070 T titles_free
+001475b8 000000b4 t absorb
+0014766c 00000044 T titles_warm
+001476b0 000004e0 T titles_load_all
+00147b90 00000010 T titles_set_load_pump
+00147ba0 000001c0 T titles_collect
+00147d60 000001ec T titles_delete
+00147f4c 00000044 t C2Di_FrameEndHook
+00147f90 00000368 T C2D_Init
+001482f8 0000004c T C2D_Fini
+00148344 000000bc T C2D_Prepare
+00148400 00000048 T C2D_Flush
+00148448 000000fc T C2D_SceneSize
+00148544 00000060 T C2D_CreateScreenTarget
+001485a4 00000060 T C2D_TargetClear
+00148604 00000044 T C2D_SetTintMode
+00148648 0000014c T C2Di_CalcQuad
+00148794 00000054 T C2Di_AppendQuad
+001487e8 00000738 T C2Di_Update
+00148f20 000002e8 T C2D_DrawImage
+00149208 0000016c T C2D_DrawTriangle
+00149374 00000168 T C2D_DrawRectangle
+001494dc 00000028 T AttrInfo_Init
+00149504 00000094 T AttrInfo_AddLoader
+00149598 00000054 T C3D_SetAttrInfo
+001495ec 00000080 T C3Di_AttrInfoBind
+0014966c 00000004 W C3Di_LightEnvUpdate
+00149670 00000004 W C3Di_LightEnvDirty
+00149674 000000b4 t C3Di_AptEventHook
+00149728 00000004 W C3Di_GasUpdate
+0014972c 000001d0 T C3D_Init
+001498fc 00000098 T C3D_SetViewport
+00149994 0000004c T C3D_SetScissor
+001499e0 000004e8 T C3Di_UpdateContext
+00149ec8 000000e0 T C3Di_SplitFrame
+00149fa8 00000044 T C3D_Fini
+00149fec 00000194 T C3D_BindProgram
+0014a180 00000024 T BufInfo_Init
+0014a1a4 00000080 T BufInfo_Add
+0014a224 0000003c T C3D_SetBufInfo
+0014a260 00000048 T C3Di_BufInfoBind
+0014a2a8 0000021c T C3D_DrawElements
+0014a4c4 00000040 T C3D_DepthMap
+0014a504 0000001c T C3D_CullFace
+0014a520 00000040 T C3D_StencilTest
+0014a560 00000024 T C3D_StencilOp
+0014a584 0000001c T C3D_BlendingColor
+0014a5a0 00000024 T C3D_EarlyDepthTest
+0014a5c4 0000002c T C3D_DepthTest
+0014a5f0 0000002c T C3D_AlphaTest
+0014a61c 00000050 T C3D_AlphaBlend
+0014a66c 00000030 T C3D_FragOpMode
+0014a69c 00000044 T C3D_FragOpShadow
+0014a6e0 000001ac T C3Di_EffectBind
+0014a88c 0000001c T C3D_CalcColorBufSize
+0014a8a8 0000001c T C3D_CalcDepthBufSize
+0014a8c4 00000044 T C3D_SetFrameBuf
+0014a908 0000016c T C3Di_FrameBufBind
+0014aa74 000000c8 T C3D_FrameBufClear
+0014ab3c 00000044 T C3D_FrameBufTransfer
+0014ab80 000000a8 T C3D_ImmSendAttrib
+0014ac28 00000070 T C3D_ProcTexInit
+0014ac98 00000054 T C3D_ProcTexBind
+0014acec 0000005c T C3D_ProcTexLutBind
+0014ad48 000000a4 T ProcTexLut_FromArray
+0014adec 00000178 T C3Di_ProcTexUpdate
+0014af64 00000068 T C3Di_ProcTexDirty
+0014afcc 0000004c t onVBlank0
+0014b018 0000004c t onVBlank1
+0014b064 00000080 t C3Di_RenderTargetDestroy
+0014b0e4 000000f4 t onQueueFinish
+0014b1d8 00000038 T C3Di_RenderQueueEnableVBlank
+0014b210 00000030 T C3Di_RenderQueueDisableVBlank
+0014b240 00000060 T C3Di_RenderQueueInit
+0014b2a0 000000b4 T C3Di_RenderQueueExit
+0014b354 00000034 T C3Di_RenderQueueWaitDone
+0014b388 000000e8 T C3D_FrameBegin
+0014b470 00000048 T C3D_FrameDrawOn
+0014b4b8 00000058 T C3D_FrameSplit
+0014b510 000001d0 T C3D_FrameEnd
+0014b6e0 0000001c T C3D_FrameEndHook
+0014b6fc 00000170 T C3D_RenderTargetCreate
+0014b86c 000000a8 T C3D_RenderTargetSetOutput
+0014b914 000000fc T C3D_SyncTextureCopy
+0014ba10 00000034 T C3D_GetTexEnv
+0014ba44 00000024 T C3Di_TexEnvBind
+0014ba68 00000290 T C3D_TexInitWithParams
+0014bcf8 000000c8 T C3D_TexLoadImage
+0014bdc0 00000044 T C3D_TexBind
+0014be04 00000074 T C3D_TexDelete
+0014be78 0000014c T C3Di_SetTex
+0014bfc4 00000290 T C3D_UpdateUniforms
+0014c254 000000c0 T C3Di_DirtyUniforms
+0014c314 000000d8 T C3Di_LoadShaderUniforms
+0014c3ec 00000028 T C3Di_ClearShaderUniforms
+0014c414 000000cc T Mtx_Ortho
+0014c4e0 000000cc T Mtx_OrthoTilt
+0014c5ac 00000024 t addrMapNodeComparator(rbtree_node const*, rbtree_node const*)
+0014c5d0 00000004 t addrMapNodeDestructor(rbtree_node*)
+0014c5d4 0000012c T linearMemAlign
+0014c700 00000008 T linearAlloc
+0014c708 0000005c T linearFree
+0014c764 0000000c T linearSpaceFree
+0014c770 00000088 T MemPool::CoalesceRight(MemBlock*)
+0014c7f8 00000178 T MemPool::Allocate(MemChunk&, unsigned long, int)
+0014c970 00000118 T MemPool::Deallocate(MemChunk const&)
+0014ca88 00000030 T MemPool::GetFreeSpace()
+0014cab8 00000024 t addrMapNodeComparator(rbtree_node const*, rbtree_node const*)
+0014cadc 00000004 t addrMapNodeDestructor(rbtree_node*)
+0014cae0 00000248 T vramMemAlignAt
+0014cd28 0000000c T vramAlloc
+0014cd34 0000000c T vramAllocAt
+0014cd40 00000094 T vramFree
+0014cdd4 000000cc t gfxPresentFramebuffer
+0014cea0 00000010 T gfxSet3D
+0014ceb0 00000014 T gfxSetWide
+0014cec4 0000001c T gfxIsWide
+0014cee0 000000f8 T gfxSetScreenFormat
+0014cfd8 000000d8 T gfxInit
+0014d0b0 00000010 T gfxInitDefault
+0014d0c0 000000b8 T gfxExit
+0014d178 000000a0 T gfxGetFramebuffer
+0014d218 00000028 T gfxScreenSwapBuffers
+0014d240 00000074 T osConvertVirtToPhys
+0014d2b4 00000054 T osGetTimeRef
+0014d308 000000ec T osGetTime
+0014d3f4 00000034 T __ctru_speedup_config
+0014d428 0000013c T GPUCMD_Add
+0014d564 000000b0 T GPUCMD_Split
+0014d614 00000034 T f32tof16
+0014d648 00000034 T f32tof24
+0014d67c 00000038 T f32tof31
+0014d6b4 00000010 T GX_BindQueue
+0014d6c4 0000007c T GX_ProcessCommandList
+0014d740 00000074 T GX_MemoryFill
+0014d7b4 00000074 T GX_DisplayTransfer
+0014d828 00000078 T GX_TextureCopy
+0014d8a0 00000064 t gxCmdQueueDoCommands.part.0
+0014d904 000000e4 T gxCmdQueueInterrupt
+0014d9e8 00000068 T gxCmdQueueClear
+0014da50 00000108 T gxCmdQueueAdd
+0014db58 00000080 T gxCmdQueueRun
+0014dbd8 00000064 T gxCmdQueueStop
+0014dc3c 000000ac T gxCmdQueueWait
+0014dce8 000001e0 T shaderInstanceInit
+0014dec8 00000018 T shaderInstanceGetUniformLocation
+0014dee0 0000001c T shaderProgramInit
+0014defc 00000074 T shaderProgramFree
+0014df70 00000094 T shaderProgramSetVsh
+0014e004 000008d0 T shaderProgramConfigure
+0014e8d4 000001dc t DVLE_GenerateOutmap.part.0
+0014eab0 000001ac T DVLB_ParseFile
+0014ec5c 00000050 T DVLB_Free
+0014ecac 00000074 T DVLE_GetUniformRegister
+0014ed20 000000a8 T amInit
+0014edc8 0000003c T amExit
+0014ee04 00000058 T AM_GetTitleCount
+0014ee5c 0000005c T AM_GetTitleList
+0014eeb8 0000005c T AM_GetTitleInfo
+0014ef14 0000003c T AM_DeleteUserTitle
+0014ef50 0000005c T AM_GetTitleProductCode
+0014efac 00000038 T AM_DeleteTicket
+0014efe4 0000003c T AM_DeletePendingTitle
+0014f020 00000034 T AM_DoCleanup
+0014f054 00000034 T AM_DeleteAllPendingTitles
+0014f088 00000038 T AM_DeleteAllImportTitleContexts
+0014f0c0 0000004c T AM_DeleteUserTitles
+0014f10c 0000005c T AM_GetTitleInfosIgnorePlatform
+0014f168 00000058 T AM_StartCiaInstall
+0014f1c0 00000040 T AM_CancelCIAInstall
+0014f200 00000040 T AM_FinishCiaInstall
+0014f240 00000090 T AM_GetCiaFileInfo
+0014f2d0 00000054 T AM_GetCiaRequiredSpace
+0014f324 0000003c T AM_DeleteTitle
+0014f360 00000048 T AM_StartCiaInstallOverwrite
+0014f3a8 00000180 t aptConvertScreenForCapture
+0014f528 00000008 W aptDspSleep
+0014f530 00000004 W aptDspWakeup
+0014f534 00000004 W aptDspCancel
+0014f538 00000138 T aptSendCommand
+0014f670 00000044 t aptExitProcess
+0014f6b4 00000394 T aptExit
+0014fa48 000000d8 T aptHandleSleep
+0014fb20 00000034 T aptHook
+0014fb54 00000030 T aptUnhook
+0014fb84 00000084 T APT_SleepIfShellClosed
+0014fc08 00000078 T aptSetSleepAllowed
+0014fc80 00000084 T APT_UnlockTransition
+0014fd08 00000470 t aptEventHandler
+00150178 000000bc T APT_ReceiveParameter
+00150234 000000b0 t aptReceiveParameter.constprop.0
+001502e8 00000294 t aptScreenTransfer
+0015057c 000002d0 t aptWaitForWakeUp.isra.0
+0015084c 000000f4 T aptJumpToHomeMenu
+00150940 00000058 T aptMainLoop
+00150998 00000240 T aptInit
+00150bd8 00000090 T APT_CheckNew3DS
+00150c68 000000a8 T cfguInit
+00150d10 0000003c T cfguExit
+00150d4c 00000054 T CFGU_GetSystemLanguage
+00150da0 000001fc T csndInit
+00150f9c 000000bc T csndExit
+00151058 000000dc T csndAddCmd
+00151134 000000c8 T csndExecCmds
+001511fc 00000030 T CSND_SetPlayState
+0015122c 0000003c T CSND_SetVol
+00151268 00000288 T csndPlaySound
+001514f0 00000088 T csndGetState
+00151578 00000028 T csndIsPlaying
+001515a0 00000104 T fsInit
+001516a4 0000003c T fsExit
+001516e0 00000068 T fsExemptFromSession
+00151748 00000050 T fsUnexemptFromSession
+00151798 000000a0 T fsMakePath
+00151838 000000cc T FSUSER_OpenFile
+00151904 000000cc T FSUSER_OpenFileDirectly
+001519d0 000000b8 T FSUSER_DeleteFile
+00151a88 000000f4 T FSUSER_RenameFile
+00151b7c 000000b8 T FSUSER_DeleteDirectory
+00151c34 000000d0 T FSUSER_CreateFile
+00151d04 000000c0 T FSUSER_CreateDirectory
+00151dc4 000000f4 T FSUSER_RenameDirectory
+00151eb8 000000b4 T FSUSER_OpenDirectory
+00151f6c 00000090 T FSUSER_OpenArchive
+00151ffc 0000008c T FSUSER_CloseArchive
+00152088 00000074 T FSUSER_GetSdmcArchiveResource
+001520fc 00000074 T FSUSER_GetNandArchiveResource
+00152170 00000064 T FSUSER_IsSdmcWritable
+001521d4 00000064 T FSFILE_Read
+00152238 0000006c T FSFILE_Write
+001522a4 00000044 T FSFILE_GetSize
+001522e8 00000028 T FSFILE_SetSize
+00152310 0000003c T FSFILE_Close
+0015234c 00000024 T FSFILE_Flush
+00152370 00000060 T FSDIR_Read
+001523d0 0000003c T FSDIR_Close
+0015240c 00000c70 t gspHardwareInit
+0015307c 00000288 T gspInit
+00153304 00000104 T gspExit
+00153408 00000010 T gspHasGpuRight
+00153418 000000a4 T gspPresentBuffer
+001534bc 00000030 T gspSetEventCallback
+001534ec 00000050 T gspWaitForEvent
+0015353c 0000004c T gspWaitForAnyEvent
+00153588 00000154 t gspEventThreadMain
+001536dc 0000012c T gspSubmitGxCommand
+00153808 00000050 T GSPGPU_FlushDataCache
+00153858 00000034 T GSPGPU_SetLcdForceBlack
+0015388c 00000084 T GSPGPU_AcquireRight
+00153910 00000064 T GSPGPU_ReleaseRight
+00153974 0000007c T GSPGPU_ImportDisplayCaptureInfo
+001539f0 0000002c T GSPGPU_SaveVramSysArea
+00153a1c 0000002c T GSPGPU_RestoreVramSysArea
+00153a48 00000024 W hidShouldUseIrrst
+00153a6c 000001cc T hidInit
+00153c38 000000e8 T hidExit
+00153d20 000002a0 T hidScanInput
+00153fc0 00000010 T hidKeysHeld
+00153fd0 00000010 T hidKeysDown
+00153fe0 00000018 T hidTouchRead
+00153ff8 000001a4 T irrstInit
+0015419c 000000dc T irrstExit
+00154278 000000b4 T irrstScanInput
+0015432c 00000024 T irrstKeysHeld
+00154350 00000078 T ptmSysmInit
+001543c8 0000003c T ptmSysmExit
+00154404 00000034 T PTMSYSM_ConfigureNew3DSCPU
+00154438 00000078 T ptmuInit
+001544b0 0000003c T ptmuExit
+001544ec 00000038 T PTMU_GetBatteryLevel
+00154524 00000038 T PTMU_GetBatteryChargeState
+0015455c 00000074 T rbtree_find
+001545d0 00000010 T rbtree_init
+001545e0 00000198 t do_insert
+00154778 00000008 T rbtree_insert
+00154780 00000310 T rbtree_remove
+00154a90 00000090 T rbtree_rotate
+00154b20 000000c0 T utf8_to_utf16
+00154be0 000001e8 W __system_allocateHeaps
+00154dc8 00000038 W __libctru_init
+00154e00 0000016c W __system_initArgv
+00154f6c 00000030 T __syscall_getreent
+00154f9c 00000004 T __syscall_lock_acquire
+00154fa0 00000004 T __syscall_lock_release
+00154fa4 00000004 T __syscall_lock_acquire_recursive
+00154fa8 00000004 T __syscall_lock_release_recursive
+00154fac 00000004 T __syscall_exit
+00154fb0 00000054 T initThreadVars
+00155004 00000080 T __system_initSyscalls
+00155084 T svcControlMemory
+001550a4 T svcQueryMemory
+001550d4 T svcExitProcess
+001550dc T svcCreateThread
+001550fc T svcExitThread
+00155104 T svcSleepThread
+0015510c T svcReleaseMutex
+00155114 T svcCreateEvent
+00155128 T svcSignalEvent
+00155130 T svcClearEvent
+00155138 T svcMapMemoryBlock
+00155140 T svcUnmapMemoryBlock
+00155148 T svcCreateAddressArbiter
+0015515c T svcArbitrateAddressNoTimeout
+00155164 T svcCloseHandle
+0015516c T svcWaitSynchronization
+00155174 T svcWaitSynchronizationN
+0015519c T svcDuplicateHandle
+001551b0 T svcGetSystemTick
+001551b8 T svcGetProcessInfo
+001551d0 T svcConnectToPort
+001551e4 T svcSendSyncRequest
+001551ec T svcGetResourceLimit
+00155200 T svcGetResourceLimitLimitValues
+00155208 T svcGetResourceLimitCurrentValues
+00155210 T svcBreak
+00155218 W initSystem
+00155268 W __ctru_exit
+0015527c 0000008c W envGetHandle
+00155308 00000050 W envDestroyHandles
+00155358 00000164 T srvInit
+001554bc 00000064 T srvExit
+00155520 00000060 T srvEnableNotification
+00155580 000000a0 T srvGetServiceHandleDirect
+00155620 00000048 T srvGetServiceHandle
+00155668 00000034 T srvSubscribe
+0015569c 00000060 T srvReceiveNotification
+001556fc 00000038 T srvPublishToSubscriber
+00155734 0000000c T __sync_init
+00155740 00000018 T __sync_fini
+00155758 00000028 T syncArbitrateAddress
+00155780 000000ac T LightLock_Lock
+0015582c 00000040 T LightLock_Unlock
+0015586c 00000054 T RecursiveLock_Lock
+001558c0 00000054 T RecursiveLock_Unlock
+00155914 00000044 T LightEvent_Init
+00155958 000000b8 T LightEvent_Clear
+00155a10 000000dc T LightEvent_Signal
+00155aec 00000050 T LightEvent_TryWait
+00155b3c 000000ac T LightEvent_Wait
+00155be8 000001fc T threadCreate
+00155de4 00000038 T threadFree
+00155e1c 00000024 T threadJoin
+00155e40 00000030 T threadGetCurrent
+00155e70 00000040 T threadExit
+00155eb0 00000020 t _thread_begin
+00155ed0 00000090 t mappableFindAddressWithin
+00155f60 00000028 T mappableInit
+00155f88 0000007c T mappableAlloc
+00156004 00000004 T mappableFree
+00156008 0000000c T srvPmGetSessionHandle
+00156014 00000060 T rbtree_node_next
+00156074 00000140 T decode_utf8
+001561b4 00000054 T encode_utf16
+00156208 00000030 W __appExit
+00156238 00000030 W __appInit
+00156268 00000090 W __libctru_exit
+001562f8 00000024 t error_cmp
+0015631c 00000050 t archive_translate_error
+0015636c 000000c0 t archive_seek
+0015642c 00000078 t _archiveInit.part.0
+001564a4 00000110 t archiveFindDevice.part.0
+001565b4 00000298 t archive_utf16path
+0015684c 00000098 t _archiveUnmountDeviceStruct.part.0
+001568e4 00000178 t _archiveMountDevice
+00156a5c 000000f8 t archive_diropen
+00156b54 000000ac t archive_fstat
+00156c00 00000074 t archive_fsync
+00156c74 00000074 t archive_close
+00156ce8 00000078 t archive_dirclose
+00156d60 000000ec t sdmc_statvfs
+00156e4c 000000f8 t archive_chdir
+00156f44 0000008c t archive_ftruncate
+00156fd0 000000bc t archive_read
+0015708c 000000a8 t archive_unlink
+00157134 000000c0 t archive_rmdir
+001571f4 000000d8 t archive_mkdir
+001572cc 000001a0 t archive_stat
+0015746c 00000164 t archive_dirnext
+001575d0 0000013c t archive_write
+00157710 00000254 t archive_open
+00157964 00000270 t archive_rename
+00157bd4 000001c8 T archiveMountSdmc
+00157d9c 00000054 T archiveUnmountAll
+00157df0 000000e8 T utf16_to_utf8
+00157ed8 T __aeabi_read_tp
+00157ee4 00000054 T decode_utf16
+00157f38 000000e0 T encode_utf8
+00158018 00000074 T fmodf
+00158090 00000264 T sinf
+001582f4 0000006c T acosf
+00158360 00000214 T __ieee754_fmodf
+00158574 00000264 T __ieee754_acosf
+001587d8 00000050 T sqrtf
+00158828 00000024 t with_errnof
+0015884c 0000001c T __math_invalidf
+00158868 0000000c T nanf
+00158874 000000c0 T ceilf
+00158938 0000025c T cosf
+00158b94 000000c0 T floorf
+00158c54 00000010 T fabsf
+00158c64 00000008 T __ieee754_sqrtf
+00158c6c 00000044 T __popcountsi2
+00158cb0 0000002c T __aeabi_f2lz
+00158cb0 0000002c T __fixsfdi
+00158cdc 0000002c T __aeabi_d2lz
+00158cdc 0000002c T __fixdfdi
+00158d08 00000040 T __aeabi_f2ulz
+00158d08 00000040 T __fixunssfdi
+00158d48 00000040 T __aeabi_d2ulz
+00158d48 00000040 T __fixunsdfdi
+00158d88 00000130 T __udivmoddi4
+00158eb8 000000e4 T strncat
+00158f9c 00000034 T ftell
+00158fd0 00000078 T sscanf
+00159048 00000130 t critical_factorization
+00159178 0000033c t two_way_long_needle
+001594b4 00000238 T strstr
+001596ec 00000128 T memcpy
+00159814 0000005c T __assert_func
+00159870 0000008c T strlen
+001598fc 00000334 T _fread_r
+00159c30 00000038 T fread
+00159c68 00000078 T bsearch
+00159ce0 00000050 t get_arg
+00159d30 00002b88 T __ssvfscanf_r
+0015c8b8 00000134 T _fopen_r
+0015c9ec 00000028 T fopen
+0015ca14 00000060 t sulp
+0015ca78 00001428 T _strtod_l
+0015dea0 00000044 T _strtod_r
+0015dee4 00000028 T memalign
+0015df0c 00000264 t _strtoull_l.isra.0
+0015e170 00000038 T _strtoull_r
+0015e1a8 000000f4 t rshift
+0015e29c 000008b4 T __gethex
+0015eb50 000000a0 T snprintf
+0015ebf0 000001ec t _strtoul_l.isra.0
+0015eddc 00000038 T _strtoul_r
+0015ee14 0000003c T strtoul
+0015ee50 0000003c T fiprintf
+0015ee8c 000000c4 T _mbrtowc_r
+0015ef50 00000140 T strchr
+0015f090 000000d8 T memcmp
+0015f168 00000028 T calloc
+0015f190 000000f8 T __sccl
+0015f288 00000074 T strpbrk
+0015f2fc 0000016c T _memalign_r
+0015f468 0000000c T __errno
+0015f474 00000014 T abort
+0015f488 00000164 T __smakebuf_r
+0015f5ec 0000047c t _strtoll_l.isra.0
+0015fa68 00000038 T _strtoll_r
+0015faa0 00000024 T __locale_mb_cur_max
+0015fac4 000000e4 T memset
+0015fba8 000000d8 T _calloc_r
+0015fc80 0000022c T __sflush_r
+0015feac 000000c4 T _fflush_r
+0015ff70 00000044 T fflush
+0015ffb4 00000088 T _vsnprintf_r
+0016003c 00000038 T vsnprintf
+00160074 00000104 T _fwrite_r
+00160178 00000038 T fwrite
+001601b0 00000028 T realloc
+001601d8 000008e8 T qsort
+00160ac0 000001c4 T _ftello_r
+00160c84 0000082c T _malloc_r
+001614b0 00000114 T _malloc_trim_r
+001615c4 00000314 T _free_r
+001618d8 000000e4 T _sungetc_r
+001619bc 0000006c T __ssrefill_r
+00161a28 000000b4 T _sfread_r
+00161adc 0000001c t stdio_exit_handler
+00161af8 0000005c t cleanup_stdio
+00161b54 00000154 t global_stdio_init.part.0
+00161ca8 00000138 T __sfp
+00161de0 0000005c T __sinit
+00161e3c 0000000c T __sfp_lock_acquire
+00161e48 0000000c T __sfp_lock_release
+00161e54 00000384 t _strtol_l.part.0
+001621d8 0000006c T _strtol_r
+00162244 00000084 T __libc_init_array
+001622c8 000000d4 T strncpy
+0016239c 0000001c T _fseek_r
+001623b8 00000034 T fseek
+001623ec 00000040 T malloc
+0016242c 00000020 T free
+0016244c 000000e8 T memchr
+00162534 00000024 T _localeconv_r
+00162558 00000044 T __sread
+0016259c 00000008 T __seofread
+001625a4 00000068 T __swrite
+0016260c 00000040 T __sseek
+0016264c 00000008 T __sclose
+00162654 000001a8 T memmove
+001627fc 000004f0 T _realloc_r
+00162cec 0000000c T __malloc_lock
+00162cf8 0000000c T __malloc_unlock
+00162d04 00000588 T _fseeko_r
+0016328c 00000148 T _fclose_r
+001633d4 00000020 T fclose
+001633f4 00000004 W __call_exitprocs
+001633f8 00000030 T exit
+00163428 000005e0 t get_arg
+00163a08 0000345c T _svfprintf_r
+00166e64 000000b8 T __sflags
+00166f1c 000000f8 T __utf8_wctomb
+00167014 0000003c T __libc_fini_array
+00167050 0000003c T strnlen
+0016708c 000005e0 t get_arg
+0016766c 000022f8 T _vfiprintf_r
+00169964 000000b4 t __sbprintf
+00169a18 000000d8 T strncmp
+00169af0 00000070 T __match
+00169b60 000002a8 T __hexnan
+00169e08 00000068 T sprintf
+00169e70 00000038 t lflush
+00169ea8 000001a8 T __srefill_r
+0016a050 00000010 T nan
+0016a060 00000088 T frexp
+0016a0e8 000000dc T stpncpy
+0016a1c4 00000008 T iswspace
+0016a1cc 00000088 T _Balloc
+0016a254 0000001c T _Bfree
+0016a270 000000f4 T __multadd
+0016a364 0000010c T __s2b
+0016a470 00000080 T __hi0bits
+0016a4f0 000000f0 T __lo0bits
+0016a5e0 000000a4 T __i2b
+0016a684 00000230 T __multiply
+0016a8b4 00000130 T __pow5mult
+0016a9e4 00000138 T __lshift
+0016ab1c 00000058 T __mcmp
+0016ab74 00000218 T __mdiff
+0016ad8c 00000068 T __ulp
+0016adf4 000000d4 T __b2d
+0016aec8 00000120 T __d2b
+0016afe8 00000078 T __ratio
+0016b060 0000008c T __copybits
+0016b0ec 0000005c T __any_on
+0016b148 00000070 T _fwalk_sglue
+0016b1b8 000000a0 T _wcrtomb_r
+0016b258 000000b8 T __submore
+0016b310 000000a4 T __ssprint_r
+0016b3b4 00000340 T __utf8_mbtowc
+0016b6f4 000004a4 T __sfvwrite_r
+0016bb98 0000009c T _raise_r
+0016bc34 00000020 T raise
+0016bc54 00000030 T __sprint_r
+0016bc84 000001c0 t quorem
+0016be48 00001420 T _dtoa_r
+0016d268 00000028 T _wcsrtombs_r
+0016d290 00000140 T __swsetup_r
+0016d3d0 00000038 T iswspace_l
+0016d408 0000012c T __ssputs_r
+0016d534 0000015c T _wcsnrtombs_l
+0016d690 00000064 T _wcsnrtombs_r
+0016d6f4 00000090 T category
+0016d784 00000020 T _exit
+0016d7a4 00000140 T chdir
+0016d8e4 000001c8 T _concatenate_path
+0016daac 0000009c T _fstat_r
+0016db48 00000014 T _getpid_r
+0016db5c 0000002c T __getreent
+0016db88 000000a0 T __release_handle
+0016dc28 000000b0 T __alloc_handle
+0016dcd8 00000058 T __get_handle
+0016dd30 00000110 T _close_r
+0016de40 00000008 t null_write
+0016de48 00000018 T setDefaultDevice
+0016de60 00000098 T FindDevice
+0016def8 00000024 T RemoveDevice
+0016df1c 00000088 T AddDevice
+0016dfa4 00000020 T GetDeviceOpTab
+0016dfc4 00000008 T _isatty_r
+0016dfcc 00000014 T _kill_r
+0016dfe0 00000094 T _lseek_r
+0016e074 000000c0 T _open_r
+0016e134 00000094 T _read_r
+0016e1c8 00000078 W _sbrk_r
+0016e240 0000001c T __libc_lock_acquire
+0016e25c 0000001c T __libc_lock_release
+0016e278 0000001c T __libc_lock_acquire_recursive
+0016e294 0000001c T __libc_lock_release_recursive
+0016e2b0 00000094 T _write_r
+0016e344 00000048 T strrchr
+0016e38c T _fini
+0016f05c 0000000c r civil_date(unsigned long, int*, int*, int*)::mdays
+0016f068 00000030 r format_clock(char*, unsigned int)::mo
+0016f0d8 00000018 r draw_install_top(CiaList const*, int, char const*)::keys
+0016f0f0 00000018 r draw_top(TitleList const*, int const*, int, int, int, long, long, char const*, unsigned long)::keys
+0016f240 00000022 r k_font_ranges
+0016f288 00000070 r resize_border_def
+0016f360 00000400 r GCrc32LookupTable
+0016f760 00000020 r ImTextCharFromUtf8(unsigned int*, char const*, char const*)::lengths
+0016f780 00000014 r ImTextCharFromUtf8(unsigned int*, char const*, char const*)::masks
+0016f794 00000014 r ImTextCharFromUtf8(unsigned int*, char const*, char const*)::shiftc
+0016f7a8 00000014 r ImTextCharFromUtf8(unsigned int*, char const*, char const*)::mins
+0016f7bc 00000014 r ImTextCharFromUtf8(unsigned int*, char const*, char const*)::shifte
+0016f7d0 00000180 r GStyleVarInfo
+0016f950 000000dc r CSWTCH.1849
+0016fa34 00000268 r GKeyNames
+0016fcbc 00000060 r resize_grip_def
+0016fd68 00000040 r GLocalizationEntriesEnUS
+00170430 000000d8 r FONT_ATLAS_DEFAULT_TEX_CURSOR_DATA
+00170508 00000006 r ImFontAtlas::GetGlyphRangesDefault()::ranges
+00170510 0000000a r ImFontAtlas::GetGlyphRangesGreek()::ranges
+0017051c 00000012 r ImFontAtlas::GetGlyphRangesKorean()::ranges
+00170530 0000001e r ImFontAtlas::GetGlyphRangesChineseFull()::ranges
+00170550 00000018 r ImFontAtlas::GetGlyphRangesChineseSimplifiedCommon()::base_ranges
+00170568 00000014 r ImFontAtlas::GetGlyphRangesJapanese()::base_ranges
+0017057c 00000012 r ImFontAtlas::GetGlyphRangesCyrillic()::ranges
+00170590 0000000e r ImFontAtlas::GetGlyphRangesThai()::ranges
+001705a0 00000022 r ImFontAtlas::GetGlyphRangesVietnamese()::ranges
+001705c4 00000cdf r FONT_ATLAS_DEFAULT_TEX_DATA_PIXELS
+001712a4 00002ecd r proggy_clean_ttf_compressed_data_base85
+00174174 0000176e r ImFontAtlas::GetGlyphRangesJapanese()::accumulative_offsets_from_0x4E00
+001758e4 00001388 r ImFontAtlas::GetGlyphRangesChineseSimplifiedCommon()::accumulative_offsets_from_0x4E00
+00176c6c 0000000c r sizes.0
+00176c78 00000030 r CSWTCH.61
+00176ca8 0000001a r acc.1
+00176cc4 00000074 r suf.0
+00176d38 00000344 r k_jp
+0017707c 000011a0 r k_names
+0017821c 00000014 r CSWTCH.90
+00178230 00000008 r s_defaultTint.0
+00178244 R bgm_bin
+0036cf38 R bgm_bin_end
+00371904 r .LC354
+00372098 r .LC417
+00372604 r .LC440
+00377fc4 r .LC2
+0037fbbc 00000020 r CSWTCH.1330
+0037fbdc R pophappiness_ttf
+00392b84 R pophappiness_ttf_end
+00392b84 R pophappiness_ttf_size
+00392b88 R render2d_shbin
+00392d14 00000004 r depthFmtSizes
+00392d14 R render2d_shbin_end
+00392d18 00000005 r colorFmtSizes
+00392d20 00000010 r CSWTCH.11
+00392d30 00000038 r CSWTCH.19
+00392d90 00000008 r morton_y.2
+00392d98 00000008 r morton_x.3
+00392da0 00000008 r s_sleepWakeEvents.4
+00392da8 0000000c r serviceNameTable.5
+00392db4 00000030 r error_table
+00392de4 00000080 r archive_devoptab
+00392e64 00000008 r Zero
+00392e6c 00000060 R __inv_pio4
+00392ed0 000000e0 R __sincosf_table
+00393104 00000022 r basefix.0
+00393188 00000014 r fpinan.0
+0039319c 00000014 r fpi.1
+003931b0 00000028 r tinytens
+003931d8 00000100 R __hexdig
+003933c4 00000010 r zeroes.0
+003933d4 00000010 r blanks.1
+003934d0 00000010 r zeroes.0
+003934e0 00000010 r blanks.1
+003934f0 00000101 R _ctype_
+003935f4 0000000c r p05.0
+00393600 00000028 R __mprec_bigtens
+00393628 000000c8 R __mprec_tens
+003936f0 0000006c R __action_table
+0039375c 0000006c R __state_table
+003937c8 00000100 R __chclass
+003938d0 000037f8 r categories
+003970c8 00000080 R dotab_stdnull
+00397148 R __tdata_align
+0039714c r __EH_FRAME_BEGIN__
+0039714c R __exidx_end
+0039714c R __exidx_start
+00398000 00000004 d icon_tex(TitleRec const*, unsigned long)::stamp
+00398004 00000004 d on_cia_pump(CiaRec const*, unsigned long, unsigned long, unsigned long long, void*)::last_index
+00398008 00000008 d on_cia_pump(CiaRec const*, unsigned long, unsigned long, unsigned long long, void*)::last_draw
+00398010 00000004 d build_visible(TitleList const*, int, int*)::built_nds
+00398014 00000004 d build_visible(TitleList const*, int, int*)::built_n
+00398018 00000004 d g_shelf
+0039801c 00000004 d g_gen
+00398020 00000004 d GImAllocatorAllocFunc
+00398024 00000004 d GImAllocatorFreeFunc
+00398028 00000004 d g_chn
+0039802c 00000004 d g_rate
+00398030 00000001 d g_lang
+00398034 00000008 d framerateCounter
+0039803c 00000004 d framerate
+00398040 00000004 d queueLock
+00398044 00000004 d aptChainloadDeliverArgSize
+00398048 00000004 d kCount
+0039804c 00000004 d kInterval
+00398050 00000004 d kDelay
+00398054 W __stacksize__
+00398058 00000004 D _impure_ptr
+00398060 00000200 D _impure_data
+00398260 00000254 D __global_locale
+003984b4 00000004 D __malloc_sbrk_base
+003984b8 00000004 D __malloc_trim_threshold
+003984c0 00000408 D __malloc_av_
+003988c8 0000000c D __sglue
+003988d4 00000400 d _current_working_directory
+00398cd8 00001000 d handles
+00399cd8 0000000c d __stderr_handle
+00399ce4 0000000c d __stdout_handle
+00399cf0 0000000c d __stdin_handle
+00399cfc 0000008c D devoptab_list
+00399d88 00000004 d defaultDevice
+00399d94 d _GLOBAL_OFFSET_TABLE_
+00399da0 d __frame_dummy_init_array_entry
+00399da0 D __init_array_start
+00399da0 B __preinit_array_end
+00399da0 B __preinit_array_start
+00399da0 D __tdata_lma
+00399da0 D __tdata_lma_end
+00399da4 d __do_global_dtors_aux_fini_array_entry
+00399da4 D __fini_array_start
+00399da4 D __init_array_end
+00399da8 00000001 b g_grid
+00399da8 D __bss_start__
+00399da8 D __fini_array_end
+00399dac 00000004 b g_sort_list
+00399db0 00000004 b scroll_follow(char const*, float, float)::last
+00399db4 00000004 b scroll_follow(char const*, float, float)::top
+00399db8 00000001 b g_follow
+00399db9 00000001 b g_touch_down
+00399dba 00000001 b g_touch_drag
+00399dbb 00000001 b g_ate_click
+00399dbc 00000004 b g_touch_x
+00399dc0 00000004 b g_touch_y
+00399dc4 00000004 b g_touch_last_y
+00399dc8 00000001 b g_quit
+00399dcc 00000100 b g_replace
+00399ecc 00000001 b g_pending_reload
+00399ed0 00000008 b draw_battery()::stamp
+00399ed8 00000001 b draw_battery()::level
+00399ed9 00000001 b draw_battery()::charging
+00399eda 00000001 b g_ptmu
+00399edb 00000001 b g_loading
+00399edc 00000004 b build_visible(TitleList const*, int, int*)::built_list
+00399ee0 00000004 b build_visible(TitleList const*, int, int*)::built_gen
+00399ee4 00000004 b g_shelf_gen
+00399ee8 00000040 b storage_side(float)::a
+00399f28 00000008 b storage_side(float)::stamp
+00399f30 00000040 b storage_side(float)::b
+00399f70 000080c0 b icon_tex(TitleRec const*, unsigned long)::cache
+003a2030 00002000 b g_ids
+003a4030 00001000 b g_visible
+003a5030 00000001 b g_frame
+003a5034 00000004 b g_keep_n
+003a5038 000000a0 b g_keep
+003a50d8 00000048 b g_font
+003a5120 00000014 b g_quad_sub
+003a5134 00000001 b g_which
+003a5135 00000001 b g_scissor_set
+003a5136 00000001 b g_scissor_screen
+003a5138 00000010 b g_scissor
+003a5148 00000004 b g_atlas_w
+003a514c 00000004 b g_atlas_h
+003a5150 00000008 b g_quad
+003a5158 00000001 b g_c3d
+003a5159 00000001 b g_c2d
+003a515c 00000004 b g_top
+003a5160 00000004 b g_bot
+003a5164 00000004 b g_atlas
+003a5168 00000004 b g_ctx_top
+003a516c 00000004 b g_ctx_bot
+003a5170 00000001 b g_ready
+003a5174 000006c0 b g_icons
+003a5834 00000001 b g_open
+003a5835 00000001 b g_touch
+003a5838 00000004 B GImGui
+003a583c 00000004 b GImAllocatorUserData
+003a5840 00000001 B ImGuiTextBuffer::EmptyString
+003a5844 00000004 b stb__dout
+003a5848 00000004 b stb__barrier_out_e
+003a584c 00000004 b stb__barrier_out_b
+003a5850 00000004 b stb__barrier_in_b
+003a5854 00000004 b ImFontAtlasGetBuilderForStbTruetype()::io
+003a5858 00002ef2 b ImFontAtlas::GetGlyphRangesJapanese()::full_ranges
+003a874c 0000272a b ImFontAtlas::GetGlyphRangesChineseSimplifiedCommon()::full_ranges
+003aae78 00000004 b g_wake
+003aae7c 00000004 b g_play
+003aae80 00000001 b g_csnd
+003aae84 00000004 b g_pcm
+003aae88 00000008 b g_tick
+003aae90 00000004 b g_tick_pos
+003aae94 00000004 b g_pos
+003aae98 00000001 b g_on
+003aae99 00000001 b g_tail
+003aae9c 00000004 b g_tail_wait
+003aaea0 00000001 b g_hooked
+003aaea4 0000000c b g_hook
+003aaeb0 00000008 b g_sd
+003aaeb8 00000001 b g_sd_open
+003aaebc 00000004 b g_buf
+003aaec0 00000004 b g_buf_size
+003aaec8 00000008 b g_archive
+003aaed0 00000001 b g_archive_open
+003aaed4 000036c0 b blob.0
+003ae594 00000004 b g_load_pump
+003ae598 00000004 b g_fills
+003ae5a0 000005a8 B __C2Di_Context
+003aeb48 00000040 b s_projTop
+003aeb88 00000040 b s_projBot
+003aebc8 00000004 b uLoc_mdlvMtx
+003aebcc 00000004 b uLoc_projMtx
+003aebd0 b completed.1
+003aebd4 b object.0
+003aebec 0000000c b hookCookie
+003aebf8 000002d0 B __C3D_Context
+003aeec8 00000004 b frameEndCbData
+003aeecc 00000004 b frameEndCb
+003aeed0 00000008 b frameCounter
+003aeed8 00000001 b isTopStereo
+003aeed9 00000001 b needSwapBot
+003aeeda 00000001 b needSwapTop
+003aeedb 00000001 b measureGpuTime
+003aeedc 00000001 b inSafeTransfer
+003aeedd 00000001 b inFrame
+003aeee0 00000010 b cpuTime
+003aeef0 00000010 b gpuTime
+003aef00 0000000c b linkedTarget
+003aef0c 00000004 b lastTarget
+003aef10 00000004 b firstTarget
+003aef14 00000008 b C3Di_IVUnifEverDirty
+003aef1c 000000c0 b C3Di_FVUnifEverDirty
+003aefdc 00000018 b C3Di_ShaderFVecData
+003aeff4 00000002 B C3D_BoolUnifsDirty
+003aeff8 00000008 B C3D_IVUnifDirty
+003af000 000000c0 B C3D_FVUnifDirty
+003af0c0 00000004 B C3D_BoolUnifs
+003af0c4 00000020 B C3D_IVUnif
+003af0e4 00000c00 B C3D_FVUnif
+003afce8 00000008 b sLinearPool
+003afcf0 0000000c b sAddrMap
+003afd00 00000008 b sVramPoolB
+003afd08 00000008 b sVramPoolA
+003afd10 0000000c b sAddrMap
+003afd1c 00000004 b screenAlloc
+003afd20 00000004 b screenFree
+003afd24 00000002 b gfxIsDoubleBuf
+003afd28 00000002 b gfxCurBuf
+003afd2a 00000001 b gfxIsVram
+003afd2b 00000001 b gfxTopMode
+003afd2c 00000002 b gfxFramebufferFormats
+003afd30 00000004 b gfxBottomFramebufferMaxSize
+003afd34 00000004 b gfxTopFramebufferMaxSize
+003afd38 00000008 b gfxBottomFramebuffers
+003afd40 00000008 b gfxTopFramebuffers
+003afd48 00000001 V __ctru_speedup
+003afd4c 00000004 B gpuCmdBufOffset
+003afd50 00000004 B gpuCmdBufSize
+003afd54 00000004 B gpuCmdBuf
+003afd58 00000004 b boundQueue
+003afd5c 00000001 b shouldStop
+003afd5d 00000001 b isRunning
+003afd5e 00000001 b isActive
+003afd60 00000004 b curQueue
+003afd64 00000004 b amRefCount
+003afd68 00000004 b amHandle
+003afd6c 00000001 b flagValue.0
+003afd6d 00000001 b flagInit.1
+003afd70 00000004 b serviceName.6
+003afd74 00000001 b aptChainloadFlags
+003afd75 00000001 b aptChainloadMediatype
+003afd78 00000020 b aptChainloadHmac
+003afd98 00000300 b aptChainloadDeliverArg
+003b0098 00000008 b aptChainloadTid
+003b00a0 00001000 b aptParameters
+003b10a0 00000004 b aptFlags
+003b10a4 00000001 b aptHomeButtonState
+003b10a8 00000004 b aptMessageFuncData
+003b10ac 00000004 b aptMessageFunc
+003b10b0 0000000c b aptFirstHook
+003b10bc 00000001 b aptEventHandlerThreadQuit
+003b10c0 00000004 b aptEventHandlerThread
+003b10c4 00000008 b aptSleepEvent
+003b10cc 00000008 b aptReceiveEvent
+003b10d4 00000008 b aptEvents
+003b10dc 00000004 b aptLockHandle
+003b10e0 00000004 b aptRefCount
+003b10e4 00000004 b cfguRefCount
+003b10e8 00000004 b cfguHandle
+003b10ec 00000004 b csndCmdCurOff
+003b10f0 00000004 b csndCmdStartOff
+003b10f4 00000004 b csndRefCount
+003b10f8 00000004 b csndSharedMemBlock
+003b10fc 00000004 b csndMutex
+003b1100 00000004 b csndHandle
+003b1104 00000010 B csndOffsets
+003b1114 00000004 B csndChannels
+003b1118 00000004 B csndSharedMemSize
+003b111c 00000004 B csndSharedMem
+003b1120 00000080 b fsExemptArchives
+003b11a0 00000004 b fsuRefCount
+003b11a4 00000004 b fsuHandle
+003b11a8 00000007 b gspEventCbOneShot
+003b11b0 0000001c b gspEventCbData
+003b11cc 0000001c b gspEventCb
+003b11e8 00000038 b gspEvents
+003b1220 00000004 b gspLastEvent
+003b1224 00000001 b gspRunEvents
+003b1228 00000004 b gspEventThread
+003b122c 00000004 b gspEvent
+003b1230 00000001 b gspGpuRight
+003b1231 00000001 b gspThreadId
+003b1234 00000004 b gspSharedMem
+003b1238 00000004 b gspSharedMemHandle
+003b123c 00000004 b gspRefCount
+003b1240 00000004 b gspGpuHandle
+003b1244 00000001 b usingIrrst
+003b1248 00000004 b hidRefCount
+003b124c 00000006 b gRate
+003b1254 00000006 b aVec
+003b125c 00000004 b cPos
+003b1260 00000004 b tPos
+003b1264 00000004 b kRepeat
+003b1268 00000004 b kUp
+003b126c 00000004 b kDown
+003b1270 00000004 b kHeld
+003b1274 00000004 b kOld
+003b1278 00000004 B hidSharedMem
+003b127c 00000014 B hidEvents
+003b1290 00000004 B hidMemHandle
+003b1294 00000004 B hidHandle
+003b1298 00000004 b irrstRefCount
+003b129c 00000004 b csPos
+003b12a0 00000004 b kHeld
+003b12a4 00000004 B irrstSharedMem
+003b12a8 00000004 B irrstEvent
+003b12ac 00000004 B irrstMemHandle
+003b12b0 00000004 B irrstHandle
+003b12b4 00000004 b ptmSysmRefCount
+003b12b8 00000004 b ptmSysmHandle
+003b12bc 00000004 b ptmuRefCount
+003b12c0 00000004 b ptmuHandle
+003b12c4 00000004 V __ctru_linear_heap_size
+003b12c8 00000004 V __ctru_heap_size
+003b12cc 00000004 B __ctru_linear_heap
+003b12d0 00000004 B __ctru_heap
+003b12d4 00000004 B __system_retAddr
+003b12d8 00000004 B __system_argv
+003b12dc 00000004 B __system_argc
+003b12e0 b saved_stack
+003b12e8 00000004 B __3dslink_host
+003b12ec 00000004 b srvRefCount
+003b12f0 00000004 b srvHandle
+003b12f4 00000004 b arbiter
+003b12f8 00000004 b currentAddr
+003b12fc 00000004 b maxAddr
+003b1300 00000004 b minAddr
+003b1304 00000004 b srvPmHandle
+003b1308 000005c0 b archive_devices
+003b18c8 00000004 b archive_device_cwd
+003b18cc 00000001 b archive_initialized
+003b18d0 00000028 B __malloc_current_mallinfo
+003b18f8 00000004 B __malloc_max_total_mem
+003b18fc 00000004 B __malloc_max_sbrked_mem
+003b1900 00000004 B __malloc_top_pad
+003b1904 0000000c b __sfp_recursive_mutex
+003b1910 00000168 B __sf
+003b1a78 00000004 B __stdio_exit_handler
+003b1a7c 0000000c b __malloc_recursive_mutex
+003b1a88 00000400 b temp_cwd
+003b1e88 00000004 b __hndl_lock
+003b1e8c 00000004 B fake_heap_start
+003b1e90 00000004 B fake_heap_end
+003b1e94 00000004 b heap_start.0
+003b1e98 B __tls_start
+003b2aa0 B __bss_end__
+003b2aa0 A __end__
+003b2aa0 B __tls_end

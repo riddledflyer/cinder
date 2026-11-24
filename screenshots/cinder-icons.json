@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Cinder",
+      "hasCanvas": false,
+      "bodyTextLen": 1952,
+      "bodyTextHash": "e731a9c3825ed539df7cc0e17df8cc2518e22c17e39833288f804638050d9c16",
+      "bodyTextPrefix": "Nintendo 3DS Cinder Version 3.6 cinder-3.6.cia Source 3DS softwa",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/cinder-icons.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Cinder",
+      "hasCanvas": false,
+      "bodyTextLen": 1952,
+      "bodyTextHash": "e731a9c3825ed539df7cc0e17df8cc2518e22c17e39833288f804638050d9c16",
+      "bodyTextPrefix": "Nintendo 3DS Cinder Version 3.6 cinder-3.6.cia Source 3DS softwa",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/cinder-icons-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/cinder-icons.json"
+}

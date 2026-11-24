@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Cinder",
+      "hasCanvas": false,
+      "bodyTextLen": 1668,
+      "bodyTextHash": "4ba7453b5978e96f0559ca08227fe75eb8e7c3a79f4f69a546c2822d41027703",
+      "bodyTextPrefix": "Nintendo 3DS Cinder Download source SD card 0 selected · 0 B Har",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Cinder",
+      "hasCanvas": false,
+      "bodyTextLen": 1668,
+      "bodyTextHash": "4ba7453b5978e96f0559ca08227fe75eb8e7c3a79f4f69a546c2822d41027703",
+      "bodyTextPrefix": "Nintendo 3DS Cinder Download source SD card 0 selected · 0 B Har",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
